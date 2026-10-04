@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 11,
+  "catalogVersion": 12,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 0,
-  "generatedAt": "2026-10-04T19:15:15.092Z",
-  "version": 11,
+  "generatedAt": "2026-10-04T19:16:50.791Z",
+  "version": 12,
   "stations": [
     {
       "id": "solo-rancheras",
@@ -14,7 +14,7 @@
       "priority": 10,
       "enabled": true,
       "streams": [
-        "https://c11.radioboss.fm:18212/stream"
+        "https://stream.zenolive.com/sy87dubz5f5tv"
       ]
     },
     {
@@ -61,8 +61,7 @@
       "enabled": true,
       "streams": [
         "https://stream-48.zeno.fm/gs4xg5s0csmtv?zs=fpe9FmGvSNuTKvhiQP2myQ",
-        "https://stream-144.zeno.fm/gs4xg5s0csmtv?zs=DiHqEIidR0ejJ3Bwp-pUKA",
-        "https://stream.zenolive.com/sy87dubz5f5tv"
+        "https://stream-144.zeno.fm/gs4xg5s0csmtv?zs=DiHqEIidR0ejJ3Bwp-pUKA"
       ]
     },
     {
