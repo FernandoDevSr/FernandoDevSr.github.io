@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogVersion": 10,
   "minAppVersionCode": 12,
-  "refreshAfterMinutes": 30,
+  "refreshAfterMinutes": 0,
   "generatedAt": "2026-10-03T21:41:00-03:00",
   "version": 10,
   "stations": [
