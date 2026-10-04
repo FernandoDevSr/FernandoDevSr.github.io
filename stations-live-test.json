@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 10,
+  "catalogVersion": 11,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 0,
-  "generatedAt": "2026-10-03T21:41:00-03:00",
-  "version": 10,
+  "generatedAt": "2026-10-04T19:15:15.092Z",
+  "version": 11,
   "stations": [
     {
       "id": "solo-rancheras",
@@ -19,7 +19,7 @@
     },
     {
       "id": "que-viva-mexico",
-      "name": "Qué Viva México",
+      "name": "Qué Viva México TEST V11",
       "style": "Clásicos mexicanos",
       "group": "ranchera",
       "priority": 20,
