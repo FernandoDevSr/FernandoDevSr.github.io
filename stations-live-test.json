@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 13,
+  "catalogVersion": 14,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 0,
-  "generatedAt": "2026-10-04T19:18:07.355Z",
-  "version": 13,
+  "generatedAt": "2026-10-04T19:20:35.675Z",
+  "version": 14,
   "stations": [
     {
       "id": "solo-rancheras",
@@ -36,7 +36,7 @@
       "priority": 30,
       "enabled": true,
       "streams": [
-        "http://us10a.serverse.com:8207/"
+        "https://c11.radioboss.fm:18212/stream"
       ]
     },
     {
