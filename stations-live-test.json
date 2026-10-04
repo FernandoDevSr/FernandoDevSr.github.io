@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 16,
+  "catalogVersion": 15,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 0,
-  "generatedAt": "2026-10-04T19:25:05.895Z",
-  "version": 16,
+  "generatedAt": "2026-10-04T19:26:13.210Z",
+  "version": 15,
   "stations": [
     {
       "id": "solo-rancheras",
