@@ -1,983 +1,983 @@
 {
-  "schemaVersion": 1,
-  "catalogVersion": 12,
-  "minAppVersionCode": 12,
-  "refreshAfterMinutes": 30,
-  "generatedAt": "2026-10-05T09:26:13.7216226-03:00",
-  "version": 12,
-  "stations": [
-    {
-      "id": "solo-rancheras",
-      "name": "Solo Rancheras",
-      "style": "Rancheras • corridos",
-      "group": "ranchera",
-      "priority": 10,
-      "enabled": true,
-      "streams": [
-        "https://c11.radioboss.fm:18212/stream"
-      ]
-    },
-    {
-      "id": "que-viva-mexico",
-      "name": "Qué Viva México",
-      "style": "Clásicos mexicanos",
-      "group": "ranchera",
-      "priority": 20,
-      "enabled": true,
-      "streams": [
-        "https://panel.retrolandigital.com/listen/que_viva_mexico/listen"
-      ]
-    },
-    {
-      "id": "mariachi-digital",
-      "name": "Mariachi Digital",
-      "style": "Mariachi tradicional",
-      "group": "mariachi",
-      "priority": 30,
-      "enabled": true,
-      "streams": [
-        "http://us10a.serverse.com:8207/"
-      ]
-    },
-    {
-      "id": "llego-mariachi",
-      "name": "Llegó El Mariachi",
-      "style": "Mariachi • ranchera • tradicional mexicana",
-      "group": "mariachi",
-      "priority": 35,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "high",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR34_s01AAC.aac"
-      ]
-    },
-    {
-      "id": "viva-mariachi",
-      "name": "Viva El Mariachi",
-      "style": "Mariachi • música de antes",
-      "group": "mariachi",
-      "priority": 40,
-      "enabled": true,
-      "streams": [
-        "https://stream-48.zeno.fm/gs4xg5s0csmtv?zs=fpe9FmGvSNuTKvhiQP2myQ",
-        "https://stream-144.zeno.fm/gs4xg5s0csmtv?zs=DiHqEIidR0ejJ3Bwp-pUKA",
-        "https://stream.zenolive.com/sy87dubz5f5tv"
-      ]
-    },
-    {
-      "id": "campirana",
-      "name": "Radio Campirana",
-      "style": "Ranchera • campo",
-      "group": "campo",
-      "priority": 50,
-      "enabled": true,
-      "streams": [
-        "https://sonicpanel.cloudstreaming.eu/7206/stream"
-      ]
-    },
-    {
-      "id": "favorita-ranchera-cl",
-      "name": "Radio Favorita Ranchera",
-      "style": "Ranchera • Chile",
-      "group": "ranchera",
-      "priority": 60,
-      "enabled": true,
-      "streams": [
-        "https://stream.zeno.fm/pdlp0sxtdjkvv"
-      ]
-    },
-    {
-      "id": "mera-mera-chillan",
-      "name": "Radio La Mera Mera Chillán",
-      "style": "Ranchera • mexicana • Chile",
-      "group": "ranchera",
-      "priority": 64,
-      "enabled": true,
-      "country": "CL",
-      "musicFocus": "high",
-      "streams": [
-        "https://sp002.servidoresph.com:8040/stream"
-      ]
-    },
-    {
-      "id": "mexicana-chile-aire",
-      "name": "Radio La Mexicana Chile",
-      "style": "Ranchera • tropical • Chile",
-      "group": "ranchera",
-      "priority": 65,
-      "enabled": true,
-      "country": "CL",
-      "musicFocus": "high",
-      "streams": [
-        "https://audio0.tustreaming.cl/7160/aire"
-      ]
-    },
-    {
-      "id": "mexicana-chile-casablanca",
-      "name": "La Mexicana Casablanca",
-      "style": "Música mexicana • Chile",
-      "group": "ranchera",
-      "priority": 66,
-      "enabled": true,
-      "country": "CL",
-      "musicFocus": "high",
-      "streams": [
-        "https://audio0.tustreaming.cl/7170/casablanca"
-      ]
-    },
-    {
-      "id": "tropikal-ranchera-cl",
-      "name": "Radio Tropikal Ranchera",
-      "style": "Ranchera tropical • Chile",
-      "group": "ranchera",
-      "priority": 67,
-      "enabled": true,
-      "country": "CL",
-      "musicFocus": "high",
-      "streams": [
-        "https://streaming.viphosting.cl/8034/stream"
-      ]
-    },
-    {
-      "id": "chukara-cl",
-      "name": "Radio La Chúkara",
-      "style": "Ranchera • Chile",
-      "group": "ranchera",
-      "priority": 68,
-      "enabled": true,
-      "country": "CL",
-      "musicFocus": "high",
-      "streams": [
-        "https://stm7.voxhd.com.br:10788/;"
-      ]
-    },
-    {
-      "id": "caramelo-san-vicente-cl",
-      "name": "Radio Caramelo San Vicente",
-      "style": "Tropical ranchera • Chile",
-      "group": "ranchera",
-      "priority": 69,
-      "enabled": true,
-      "country": "CL",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://cast.radioservicios.cl:8316/sanvicente"
-      ]
-    },
-    {
-      "id": "ranchito-calvillo",
-      "name": "Radio Ranchito Calvillo",
-      "style": "Rancheras",
-      "group": "ranchera",
-      "priority": 70,
-      "enabled": true,
-      "streams": [
-        "https://streamingcwsradio30.com:7006/stream.mp3"
-      ]
-    },
-    {
-      "id": "ranchito",
-      "name": "Radio Ranchito",
-      "style": "Rancheras",
-      "group": "ranchera",
-      "priority": 80,
-      "enabled": true,
-      "streams": [
-        "https://streamingcwsradio30.com:7005/stream.mp3"
-      ]
-    },
-    {
-      "id": "rancherita-leon",
-      "name": "La Rancherita 105.1",
-      "style": "Rancheras • México",
-      "group": "ranchera",
-      "priority": 90,
-      "enabled": false,
-      "country": "MX",
-      "streams": [
-        "https://stream.zeno.fm/wqmax4y0ra0uv"
-      ],
-      "disabledReason": "Stream Zeno/SurferNetwork devuelve HTTP 503 de forma sostenida (auditoría 1/1 + retest 6/6 y variantes 3/3); conservar referencia hasta que vuelva una URL estable.",
-      "lastHealthDecision": "2026-10-03"
-    },
-    {
-      "id": "ranchera-983-apatzingan",
-      "name": "La Ranchera 98.3 Apatzingán",
-      "style": "Ranchera • mariachi • regional",
-      "group": "ranchera",
-      "priority": 95,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/191he4yrzv8uv"
-      ]
-    },
-    {
-      "id": "rancherita-guzman",
-      "name": "La Rancherita 106.3",
-      "style": "Ranchera • mariachi",
-      "group": "ranchera",
-      "priority": 100,
-      "enabled": true,
-      "streams": [
-        "https://live.zuperdns.net/2063/stream/;stream.mp3"
-      ]
-    },
-    {
-      "id": "rancherita-mochis",
-      "name": "La Rancherita 91.7",
-      "style": "Rancheras • recuerdo",
-      "group": "ranchera",
-      "priority": 110,
-      "enabled": true,
-      "streams": [
-        "https://radios.blumhost.es/8124/;"
-      ]
-    },
-    {
-      "id": "ranchito-sanluis",
-      "name": "Radio Ranchito San Luis",
-      "style": "Rancheras • recuerdo",
-      "group": "ranchera",
-      "priority": 120,
-      "enabled": true,
-      "streams": [
-        "https://radios.blumhost.es/8134/;"
-      ]
-    },
-    {
-      "id": "ranchera-973",
-      "name": "La Ranchera 97.3",
-      "style": "Ranchera",
-      "group": "ranchera",
-      "priority": 130,
-      "enabled": true,
-      "streams": [
-        "https://live.zuperdns.net:7010/stream.mp3/"
-      ]
-    },
-    {
-      "id": "nueva-ranchera-1041",
-      "name": "La Nueva Ranchera 104.1 Culiacán",
-      "style": "Regional mexicano • ranchera",
-      "group": "ranchera",
-      "priority": 135,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://icy.gvstream.live/gpm-cq.aac"
-      ]
-    },
-    {
-      "id": "ranchera-sv",
-      "name": "Radio Ranchera",
-      "style": "Ranchera",
-      "group": "ranchera",
-      "priority": 140,
-      "enabled": true,
-      "streams": [
-        "https://sp4.colombiatelecom.com.co/8024/stream"
-      ]
-    },
-    {
-      "id": "kebuena-vallarta",
-      "name": "La Ke Buena 95.9",
-      "style": "Regional • banda • norteño",
-      "group": "regional",
-      "priority": 150,
-      "enabled": true,
-      "streams": [
-        "https://playradio.mx/proxy/kebuenav?mp=/stream"
-      ]
-    },
-    {
-      "id": "sanjuan",
-      "name": "San Juan FM 96.1",
-      "style": "Regional • mariachi",
-      "group": "mariachi",
-      "priority": 160,
-      "enabled": true,
-      "streams": [
-        "https://live.zuperdns.net/6961/stream/;stream.mp3"
-      ]
-    },
-    {
-      "id": "poderosa-hermosillo",
-      "name": "La Poderosa 88.9",
-      "style": "Regional mexicana",
-      "group": "regional",
-      "priority": 170,
-      "enabled": true,
-      "streams": [
-        "https://stream.freepi.io/8404/live"
-      ]
-    },
-    {
-      "id": "historias-corridos",
-      "name": "Historias y Corridos",
-      "style": "Corridos • norteño • banda • sólo música",
-      "group": "norteno",
-      "priority": 175,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "high",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR06_s01AAC.aac"
-      ]
-    },
-    {
-      "id": "invasora-obregon",
-      "name": "La Invasora 90.5",
-      "style": "Norteño • regional",
-      "group": "norteno",
-      "priority": 180,
-      "enabled": true,
-      "streams": [
-        "https://streamingcwsradio30.com:7029/stream"
-      ]
-    },
-    {
-      "id": "vibra-guasave",
-      "name": "Vibra Radio 89.7",
-      "style": "Banda • norteño",
-      "group": "norteno",
-      "priority": 190,
-      "enabled": true,
-      "streams": [
-        "https://sp5.servidorrprivado.com:10982/stream?type=http&nocache=22"
-      ]
-    },
-    {
-      "id": "poderosa-vallarta",
-      "name": "La Poderosa 94.3",
-      "style": "Regional mexicana",
-      "group": "regional",
-      "priority": 200,
-      "enabled": true,
-      "streams": [
-        "https://stream.zeno.fm/w33xcmu7rzvtv"
-      ]
-    },
-    {
-      "id": "poderosa-oaxaca",
-      "name": "La Poderosa Oaxaca",
-      "style": "Tradicional mexicana",
-      "group": "campo",
-      "priority": 210,
-      "enabled": true,
-      "streams": [
-        "https://stream.zeno.fm/yg63h9ekvjhvv"
-      ]
-    },
-    {
-      "id": "mejor-obregon",
-      "name": "La Mejor 103.3",
-      "style": "Regional mexicana",
-      "group": "regional",
-      "priority": 220,
-      "enabled": true,
-      "streams": [
-        "https://streamingcwsradio30.com:7058/;"
-      ]
-    },
-    {
-      "id": "invasora-mexicali",
-      "name": "La Invasora 104.9",
-      "style": "Norteño • regional",
-      "group": "norteno",
-      "priority": 230,
-      "enabled": true,
-      "streams": [
-        "https://streamingcwsradio30.com/8076/stream"
-      ]
-    },
-    {
-      "id": "fiesta-picuda",
-      "name": "Fiesta La Más Picuda",
-      "style": "Banda • norteña",
-      "group": "norteno",
-      "priority": 240,
-      "enabled": true,
-      "streams": [
-        "http://stream.zeno.fm/0regt02pu98uv"
-      ]
-    },
-    {
-      "id": "buenisiima",
-      "name": "Buenisiima 88.5",
-      "style": "Grupera • regional",
-      "group": "norteno",
-      "priority": 250,
-      "enabled": true,
-      "streams": [
-        "http://s1.audiorama.mx:6628/;"
-      ]
-    },
-    {
-      "id": "kebuena-mochis",
-      "name": "La Ke Buena 90.1",
-      "style": "Banda • mariachi",
-      "group": "mariachi",
-      "priority": 260,
-      "enabled": true,
-      "streams": [
-        "https://stream.zeno.fm/5t4ngp8hfphvv"
-      ]
-    },
-    {
-      "id": "mejor-mazatlan",
-      "name": "La Mejor Mazatlán 102.7",
-      "style": "Banda • regional",
-      "group": "regional",
-      "priority": 270,
-      "enabled": true,
-      "streams": [
-        "https://a6.asurahosting.com:8060/radio.mp3"
-      ]
-    },
-    {
-      "id": "masbuena-mazatlan",
-      "name": "La Más Buena 104.3",
-      "style": "Regional mexicana",
-      "group": "regional",
-      "priority": 280,
-      "enabled": false,
-      "streams": [
-        "https://streaming.servicioswebmx.com/8278/stream"
-      ],
-      "country": "MX",
-      "musicFocus": "mixed",
-      "disabledReason": "La frecuencia 104.3 de Mazatlán cambió de formato/marca y el endpoint histórico ya no entrega audio; conservar referencia, no usar en rotación.",
-      "lastHealthDecision": "2026-10-01"
-    },
-    {
-      "id": "lupe-victoria",
-      "name": "La Lupe 95.3 Ciudad Victoria",
-      "style": "Regional • norteño • éxitos mexicanos",
-      "group": "regional",
-      "priority": 281,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://mdstrm.com/audio/67379e3e9cbec50af5c979ac/icecast.audio"
-      ]
-    },
-    {
-      "id": "raza-victoria",
-      "name": "La Raza 89.3 Ciudad Victoria",
-      "style": "Ranchera • norteño • mariachi",
-      "group": "regional",
-      "priority": 285,
-      "enabled": false,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://ice41.securenetsystems.net/LARAZA"
-      ],
-      "disabledReason": "Stream intermitente: múltiples auditorías 0/3 por timeout; conservar hasta encontrar URL estable",
-      "lastHealthDecision": "2026-09-29"
-    },
-    {
-      "id": "t-grande-monterrey",
-      "name": "La T Grande 990 Monterrey",
-      "style": "Grupera del recuerdo • ranchera",
-      "group": "regional",
-      "priority": 286,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://mdstrm.com/audio/672a602bce5982a130a01a1d/icecast.audio"
-      ]
-    },
-    {
-      "id": "tkr-monterrey",
-      "name": "TKR 1480 Monterrey",
-      "style": "Grupera • norteño • ranchera",
-      "group": "regional",
-      "priority": 287,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://mdstrm.com/audio/672a61c2bef01359b6913aea/icecast.audio"
-      ]
-    },
-    {
-      "id": "lupe-monterrey",
-      "name": "La Lupe 105.3 Monterrey",
-      "style": "Ranchera • mariachi • recuerdo",
-      "group": "regional",
-      "priority": 288,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://mdstrm.com/audio/6737993c9422ca09f9b9ea70/icecast.audio"
-      ]
-    },
-    {
-      "id": "lupe-mazatlan",
-      "name": "La Lupe 92.1 Mazatlán",
-      "style": "Ranchera • banda • recuerdo",
-      "group": "regional",
-      "priority": 289,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://mdstrm.com/audio/6737954c58fddafa2d93f0fb/icecast.audio?property=mmradio"
-      ]
-    },
-    {
-      "id": "lupe-culiacan",
-      "name": "La Lupe 90.7 Culiacán",
-      "style": "Ranchera • banda • recuerdo",
-      "group": "regional",
-      "priority": 290,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://mdstrm.com/audio/6737870cf12274fb020c287a/icecast.audio?property=mmradio"
-      ]
-    },
-    {
-      "id": "dinamica-mexicali",
-      "name": "La Dinámica 105.9 Mexicali",
-      "style": "Regional mexicana • norteño",
-      "group": "regional",
-      "priority": 291,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://sg.centrocibernetico.com/dinamica1059"
-      ]
-    },
-    {
-      "id": "mejor-leon",
-      "name": "La Mejor 99.9 León",
-      "style": "Regional mexicana • banda",
-      "group": "regional",
-      "priority": 293,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/XHSOFM_SC"
-      ]
-    },
-    {
-      "id": "sabrosita-monterrey",
-      "name": "La Sabrosita 95.7 Monterrey",
-      "style": "Regional mexicana • grupera",
-      "group": "regional",
-      "priority": 294,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/LASABROSITA_957FMAAC.aac"
-      ]
-    },
-    {
-      "id": "mejor-tampico",
-      "name": "La Mejor 100.1 Tampico",
-      "style": "Regional mexicana • banda",
-      "group": "regional",
-      "priority": 296,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/XHJT_SC"
-      ]
-    },
-    {
-      "id": "comadre-cuautla",
-      "name": "La Comadre 101.7 Cuautla",
-      "style": "Grupera • mariachi • regional",
-      "group": "regional",
-      "priority": 298,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream20.usastreams.com:8070/stream"
-      ]
-    },
-    {
-      "id": "tropical-caliente",
-      "name": "La Tropical Caliente 102.1",
-      "style": "Ranchera • mariachi • cumbia",
-      "group": "ranchera",
-      "priority": 299,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://sonic.sistemahost.es/8038/stream"
-      ]
-    },
-    {
-      "id": "morrita-mazatlan",
-      "name": "La Morrita 97.1 Mazatlán",
-      "style": "Banda norteña • regional",
-      "group": "norteno",
-      "priority": 300,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://audiostreaming.luz.network/stream/11/;"
-      ]
-    },
-    {
-      "id": "grande-michoacan",
-      "name": "La Grande de Michoacán 95.1",
-      "style": "Regional mexicana",
-      "group": "regional",
-      "priority": 301,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/5xptpdq1sy8uv"
-      ]
-    },
-    {
-      "id": "comadre-cdmx",
-      "name": "La Comadre 1260 CDMX",
-      "style": "Grupera • tradicional mexicana",
-      "group": "regional",
-      "priority": 302,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "http://18363.live.streamtheworld.com:3690/XELAMAAC_SC"
-      ]
-    },
-    {
-      "id": "comadre-culiacan",
-      "name": "La Comadre 98.5 Culiacán",
-      "style": "Grupera • tradicional mexicana",
-      "group": "regional",
-      "priority": 303,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "http://17643.live.streamtheworld.com/XHCLIFMAAC_SC",
-        "https://18533.live.streamtheworld.com:443/XHCLIFMAAC.aac"
-      ]
-    },
-    {
-      "id": "poderosa-tijuana",
-      "name": "La Poderosa 860 Tijuana",
-      "style": "Clásicos en español • recuerdo",
-      "group": "regional",
-      "priority": 304,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://streamingcwsradio30.com:7024/stream"
-      ]
-    },
-    {
-      "id": "mejor-guadalajara",
-      "name": "La Mejor 95.5 Guadalajara",
-      "style": "Regional mexicana • banda",
-      "group": "regional",
-      "priority": 305,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/XHRO_SC"
-      ]
-    },
-    {
-      "id": "fiera-veracruz",
-      "name": "La Fiera 94.1 Veracruz",
-      "style": "Regional mexicana • grupera",
-      "group": "regional",
-      "priority": 307,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://fiera.centrocibernetico.com/",
-        "https://sg.centrocibernetico.com/lafiera"
-      ]
-    },
-    {
-      "id": "tumbado-100",
-      "name": "Tumbado al 100",
-      "style": "Corridos • urbano regional • sólo música",
-      "group": "norteno",
-      "priority": 309,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "high",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR46_S01AAC.aac"
-      ]
-    },
-    {
-      "id": "siempre-gruperos",
-      "name": "Siempre Gruperos",
-      "style": "Grupera • regional • sólo música",
-      "group": "regional",
-      "priority": 310,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "high",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR07_s01AAC.aac"
-      ]
-    },
-    {
-      "id": "comadre-pa-bailar",
-      "name": "La Comadre Pa' Bailar",
-      "style": "Banda • grupera • cumbia • sólo música",
-      "group": "regional",
-      "priority": 311,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "high",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR08_s01AAC.aac"
-      ]
-    },
-    {
-      "id": "kebuena-cdmx",
-      "name": "La Ke Buena 92.9 CDMX",
-      "style": "Regional mexicana • banda • grupera",
-      "group": "regional",
-      "priority": 313,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac"
-      ]
-    },
-    {
-      "id": "comadre-puebla",
-      "name": "La Comadre 105.5 Puebla",
-      "style": "Regional mexicana • banda • grupera",
-      "group": "regional",
-      "priority": 314,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/XEHIT_SC.aac"
-      ]
-    },
-    {
-      "id": "bestia-cancun",
-      "name": "La Bestia Grupera 91.5 Cancún",
-      "style": "Grupera • regional mexicana",
-      "group": "regional",
-      "priority": 315,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://ss1.audiorama.com.mx:6672/;"
-      ]
-    },
-    {
-      "id": "mejor-tijuana",
-      "name": "La Mejor 90.7 Tijuana",
-      "style": "Regional mexicana • grupera",
-      "group": "regional",
-      "priority": 317,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTIMAAC.aac"
-      ]
-    },
-    {
-      "id": "fiesta-mexicana-leon",
-      "name": "Fiesta Mexicana 102.3 León",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 318,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/wghs2vb6dkhvv"
-      ]
-    },
-    {
-      "id": "fiesta-mexicana-celaya",
-      "name": "Fiesta Mexicana 102.9 Celaya",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 319,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/uwcg6hb6dkhvv"
-      ]
-    },
-    {
-      "id": "fiesta-mexicana-irapuato",
-      "name": "Fiesta Mexicana 105.5 Irapuato",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 320,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/b19663h6dkhvv"
-      ]
-    },
-    {
-      "id": "fiesta-mexicana-tampico",
-      "name": "Fiesta Mexicana 91.7 Tampico",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 321,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/pxsn7t7zfkhvv"
-      ]
-    },
-    {
-      "id": "comadre-pachuca",
-      "name": "La Comadre 104.5 Pachuca",
-      "style": "Regional mexicana • banda • grupera",
-      "group": "regional",
-      "priority": 322,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://playerservices.streamtheworld.com/api/livestream-redirect/XHRDAAC.aac"
-      ]
-    },
-    {
-      "id": "mas-prendida-victoria",
-      "name": "La Más Prendida 97.5 Ciudad Victoria",
-      "style": "Grupera • ranchera • regional mexicana",
-      "group": "regional",
-      "priority": 323,
-      "enabled": false,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://cast1.my-control-panel.com/proxy/lamasprendida/stream"
-      ],
-      "disabledReason": "Emisora vigente, pero el stream público responde HTTP 503 Server limit reached en auditorías repetidas; conservar hasta disponer de endpoint estable.",
-      "lastHealthDecision": "2026-10-01"
-    },
-    {
-      "id": "super-buena-mante",
-      "name": "La Súper Buena 95.7 Ciudad Mante",
-      "style": "Regional • norteño • ranchera",
-      "group": "regional",
-      "priority": 324,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://cast1.my-control-panel.com/proxy/lsb/stream"
-      ]
-    },
-    {
-      "id": "cotorra-victoria",
-      "name": "La Cotorra 101.7 Ciudad Victoria",
-      "style": "Grupera • norteño • ranchera",
-      "group": "regional",
-      "priority": 324,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://cast1.my-control-panel.com/proxy/cotorra/stream"
-      ]
-    },
-    {
-      "id": "estereo-alegre-gt",
-      "name": "Estéreo Alegre 101.5",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 330,
-      "enabled": true,
-      "country": "GT",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.zeno.fm/597dgr66e2zuv"
-      ]
-    },
-    {
-      "id": "girasol-hn",
-      "name": "Girasol Stereo 102.3",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 331,
-      "enabled": true,
-      "country": "HN",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://stream.playerlive.info:8037/live.aac"
-      ]
-    },
-    {
-      "id": "raza-la-us",
-      "name": "La Raza 97.9",
-      "style": "Banda • grupera • regional",
-      "group": "regional",
-      "priority": 332,
-      "enabled": true,
-      "country": "US",
-      "musicFocus": "mixed",
-      "streams": [
-        "https://liveaudio.lamusica.com/LA_KLAX_icy"
-      ]
-    },
-    {
-      "id": "tequila-fm-us",
-      "name": "Tequila FM",
-      "style": "Banda • corridos • norteño",
-      "group": "norteno",
-      "priority": 333,
-      "enabled": true,
-      "country": "US",
-      "musicFocus": "high",
-      "streams": [
-        "https://joe123-gecko.radioca.st/"
-      ]
-    },
-    {
-      "id": "cumbias-inmortales",
-      "name": "Cumbias Inmortales",
-      "style": "Cumbias mexicanas del recuerdo",
-      "group": "regional",
-      "priority": 334,
-      "enabled": true,
-      "country": "MX",
-      "musicFocus": "high",
-      "streams": [
-        "https://panel.retrolandigital.com/listen/cumbias_inmortales_radio/listen"
-      ]
-    }
-  ]
+    "schemaVersion":  1,
+    "catalogVersion":  13,
+    "minAppVersionCode":  12,
+    "refreshAfterMinutes":  30,
+    "generatedAt":  "2026-10-05T12:05:59.3398541-03:00",
+    "version":  13,
+    "stations":  [
+                     {
+                         "id":  "solo-rancheras",
+                         "name":  "Solo Rancheras",
+                         "style":  "Rancheras • corridos",
+                         "group":  "ranchera",
+                         "priority":  10,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://c11.radioboss.fm:18212/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "que-viva-mexico",
+                         "name":  "Qué Viva México",
+                         "style":  "Clásicos mexicanos",
+                         "group":  "ranchera",
+                         "priority":  20,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://panel.retrolandigital.com/listen/que_viva_mexico/listen"
+                                     ]
+                     },
+                     {
+                         "id":  "mariachi-digital",
+                         "name":  "Mariachi Digital",
+                         "style":  "Mariachi tradicional",
+                         "group":  "mariachi",
+                         "priority":  30,
+                         "enabled":  true,
+                         "streams":  [
+                                         "http://us10a.serverse.com:8207/"
+                                     ]
+                     },
+                     {
+                         "id":  "llego-mariachi",
+                         "name":  "Llegó El Mariachi",
+                         "style":  "Mariachi • ranchera • tradicional mexicana",
+                         "group":  "mariachi",
+                         "priority":  40,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR34_s01AAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "viva-mariachi",
+                         "name":  "Viva El Mariachi",
+                         "style":  "Mariachi • música de antes",
+                         "group":  "mariachi",
+                         "priority":  50,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://stream-48.zeno.fm/gs4xg5s0csmtv?zs=fpe9FmGvSNuTKvhiQP2myQ",
+                                         "https://stream-144.zeno.fm/gs4xg5s0csmtv?zs=DiHqEIidR0ejJ3Bwp-pUKA",
+                                         "https://stream.zenolive.com/sy87dubz5f5tv"
+                                     ]
+                     },
+                     {
+                         "id":  "campirana",
+                         "name":  "Radio Campirana",
+                         "style":  "Ranchera • campo",
+                         "group":  "campo",
+                         "priority":  250,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://sonicpanel.cloudstreaming.eu/7206/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "favorita-ranchera-cl",
+                         "name":  "Radio Favorita Ranchera",
+                         "style":  "Ranchera • Chile",
+                         "group":  "ranchera",
+                         "priority":  260,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://stream.zeno.fm/pdlp0sxtdjkvv"
+                                     ]
+                     },
+                     {
+                         "id":  "mera-mera-chillan",
+                         "name":  "Radio La Mera Mera Chillán",
+                         "style":  "Ranchera • mexicana • Chile",
+                         "group":  "ranchera",
+                         "priority":  270,
+                         "enabled":  true,
+                         "country":  "CL",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://sp002.servidoresph.com:8040/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "mexicana-chile-aire",
+                         "name":  "Radio La Mexicana Chile",
+                         "style":  "Ranchera · corridos · cumbia · tropical · Chile",
+                         "group":  "ranchera",
+                         "priority":  710,
+                         "enabled":  true,
+                         "country":  "CL",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://audio0.tustreaming.cl/7160/aire"
+                                     ]
+                     },
+                     {
+                         "id":  "mexicana-chile-casablanca",
+                         "name":  "La Mexicana Casablanca",
+                         "style":  "Música mexicana • Chile",
+                         "group":  "ranchera",
+                         "priority":  290,
+                         "enabled":  true,
+                         "country":  "CL",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://audio0.tustreaming.cl/7170/casablanca"
+                                     ]
+                     },
+                     {
+                         "id":  "tropikal-ranchera-cl",
+                         "name":  "Radio Tropikal Ranchera",
+                         "style":  "Ranchera tropical • Chile",
+                         "group":  "ranchera",
+                         "priority":  720,
+                         "enabled":  true,
+                         "country":  "CL",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://streaming.viphosting.cl/8034/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "chukara-cl",
+                         "name":  "Radio La Chúkara",
+                         "style":  "Ranchera • Chile",
+                         "group":  "ranchera",
+                         "priority":  280,
+                         "enabled":  true,
+                         "country":  "CL",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://stm7.voxhd.com.br:10788/;"
+                                     ]
+                     },
+                     {
+                         "id":  "caramelo-san-vicente-cl",
+                         "name":  "Radio Caramelo San Vicente",
+                         "style":  "Tropical · cumbia · ranchera · Chile",
+                         "group":  "ranchera",
+                         "priority":  730,
+                         "enabled":  true,
+                         "country":  "CL",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://cast.radioservicios.cl:8316/sanvicente"
+                                     ]
+                     },
+                     {
+                         "id":  "ranchito-calvillo",
+                         "name":  "Radio Ranchito Calvillo",
+                         "style":  "Rancheras",
+                         "group":  "ranchera",
+                         "priority":  90,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://streamingcwsradio30.com:7006/stream.mp3"
+                                     ]
+                     },
+                     {
+                         "id":  "ranchito",
+                         "name":  "Radio Ranchito",
+                         "style":  "Rancheras",
+                         "group":  "ranchera",
+                         "priority":  100,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://streamingcwsradio30.com:7005/stream.mp3"
+                                     ]
+                     },
+                     {
+                         "id":  "rancherita-leon",
+                         "name":  "La Rancherita 105.1",
+                         "style":  "Rancheras • México",
+                         "group":  "ranchera",
+                         "priority":  90,
+                         "enabled":  false,
+                         "country":  "MX",
+                         "streams":  [
+                                         "https://stream.zeno.fm/wqmax4y0ra0uv"
+                                     ],
+                         "disabledReason":  "Stream Zeno/SurferNetwork devuelve HTTP 503 de forma sostenida (auditoría 1/1 + retest 6/6 y variantes 3/3); conservar referencia hasta que vuelva una URL estable.",
+                         "lastHealthDecision":  "2026-10-03"
+                     },
+                     {
+                         "id":  "ranchera-983-apatzingan",
+                         "name":  "La Ranchera 98.3 Apatzingán",
+                         "style":  "Ranchera • mariachi • regional",
+                         "group":  "ranchera",
+                         "priority":  60,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/191he4yrzv8uv"
+                                     ]
+                     },
+                     {
+                         "id":  "rancherita-guzman",
+                         "name":  "La Rancherita 106.3",
+                         "style":  "Ranchera • mariachi",
+                         "group":  "ranchera",
+                         "priority":  70,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://live.zuperdns.net/2063/stream/;stream.mp3"
+                                     ]
+                     },
+                     {
+                         "id":  "rancherita-mochis",
+                         "name":  "La Rancherita 91.7",
+                         "style":  "Rancheras • recuerdo",
+                         "group":  "ranchera",
+                         "priority":  80,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://radios.blumhost.es/8124/;"
+                                     ]
+                     },
+                     {
+                         "id":  "ranchito-sanluis",
+                         "name":  "Radio Ranchito San Luis",
+                         "style":  "Rancheras • recuerdo",
+                         "group":  "ranchera",
+                         "priority":  110,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://radios.blumhost.es/8134/;"
+                                     ]
+                     },
+                     {
+                         "id":  "ranchera-973",
+                         "name":  "La Ranchera 97.3",
+                         "style":  "Ranchera",
+                         "group":  "ranchera",
+                         "priority":  120,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://live.zuperdns.net:7010/stream.mp3/"
+                                     ]
+                     },
+                     {
+                         "id":  "nueva-ranchera-1041",
+                         "name":  "La Nueva Ranchera 104.1 Culiacán",
+                         "style":  "Regional mexicano • ranchera",
+                         "group":  "ranchera",
+                         "priority":  130,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://icy.gvstream.live/gpm-cq.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "ranchera-sv",
+                         "name":  "Radio Ranchera",
+                         "style":  "Ranchera",
+                         "group":  "ranchera",
+                         "priority":  140,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://sp4.colombiatelecom.com.co/8024/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "kebuena-vallarta",
+                         "name":  "La Ke Buena 95.9",
+                         "style":  "Regional • banda • norteño",
+                         "group":  "regional",
+                         "priority":  300,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://playradio.mx/proxy/kebuenav?mp=/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "sanjuan",
+                         "name":  "San Juan FM 96.1",
+                         "style":  "Regional • mariachi",
+                         "group":  "mariachi",
+                         "priority":  310,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://live.zuperdns.net/6961/stream/;stream.mp3"
+                                     ]
+                     },
+                     {
+                         "id":  "poderosa-hermosillo",
+                         "name":  "La Poderosa 88.9",
+                         "style":  "Regional mexicana",
+                         "group":  "regional",
+                         "priority":  320,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://stream.freepi.io/8404/live"
+                                     ]
+                     },
+                     {
+                         "id":  "historias-corridos",
+                         "name":  "Historias y Corridos",
+                         "style":  "Corridos • norteño • banda • sólo música",
+                         "group":  "norteno",
+                         "priority":  220,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR06_s01AAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "invasora-obregon",
+                         "name":  "La Invasora 90.5",
+                         "style":  "Norteño • regional",
+                         "group":  "norteno",
+                         "priority":  330,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://streamingcwsradio30.com:7029/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "vibra-guasave",
+                         "name":  "Vibra Radio 89.7",
+                         "style":  "Banda • norteño",
+                         "group":  "norteno",
+                         "priority":  340,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://sp5.servidorrprivado.com:10982/stream?type=http\u0026nocache=22"
+                                     ]
+                     },
+                     {
+                         "id":  "poderosa-vallarta",
+                         "name":  "La Poderosa 94.3",
+                         "style":  "Regional mexicana",
+                         "group":  "regional",
+                         "priority":  350,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://stream.zeno.fm/w33xcmu7rzvtv"
+                                     ]
+                     },
+                     {
+                         "id":  "poderosa-oaxaca",
+                         "name":  "La Poderosa Oaxaca",
+                         "style":  "Tradicional mexicana",
+                         "group":  "campo",
+                         "priority":  210,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://stream.zeno.fm/yg63h9ekvjhvv"
+                                     ]
+                     },
+                     {
+                         "id":  "mejor-obregon",
+                         "name":  "La Mejor 103.3",
+                         "style":  "Regional mexicana",
+                         "group":  "regional",
+                         "priority":  360,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://streamingcwsradio30.com:7058/;"
+                                     ]
+                     },
+                     {
+                         "id":  "invasora-mexicali",
+                         "name":  "La Invasora 104.9",
+                         "style":  "Norteño • regional",
+                         "group":  "norteno",
+                         "priority":  370,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://streamingcwsradio30.com/8076/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "fiesta-picuda",
+                         "name":  "Fiesta La Más Picuda",
+                         "style":  "Banda • norteña",
+                         "group":  "norteno",
+                         "priority":  380,
+                         "enabled":  true,
+                         "streams":  [
+                                         "http://stream.zeno.fm/0regt02pu98uv"
+                                     ]
+                     },
+                     {
+                         "id":  "buenisiima",
+                         "name":  "Buenisiima 88.5",
+                         "style":  "Grupera • regional",
+                         "group":  "norteno",
+                         "priority":  390,
+                         "enabled":  true,
+                         "streams":  [
+                                         "http://s1.audiorama.mx:6628/;"
+                                     ]
+                     },
+                     {
+                         "id":  "kebuena-mochis",
+                         "name":  "La Ke Buena 90.1",
+                         "style":  "Banda • mariachi",
+                         "group":  "mariachi",
+                         "priority":  400,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://stream.zeno.fm/5t4ngp8hfphvv"
+                                     ]
+                     },
+                     {
+                         "id":  "mejor-mazatlan",
+                         "name":  "La Mejor Mazatlán 102.7",
+                         "style":  "Banda • regional",
+                         "group":  "regional",
+                         "priority":  410,
+                         "enabled":  true,
+                         "streams":  [
+                                         "https://a6.asurahosting.com:8060/radio.mp3"
+                                     ]
+                     },
+                     {
+                         "id":  "masbuena-mazatlan",
+                         "name":  "La Más Buena 104.3",
+                         "style":  "Regional mexicana",
+                         "group":  "regional",
+                         "priority":  280,
+                         "enabled":  false,
+                         "streams":  [
+                                         "https://streaming.servicioswebmx.com/8278/stream"
+                                     ],
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "disabledReason":  "La frecuencia 104.3 de Mazatlán cambió de formato/marca y el endpoint histórico ya no entrega audio; conservar referencia, no usar en rotación.",
+                         "lastHealthDecision":  "2026-10-01"
+                     },
+                     {
+                         "id":  "lupe-victoria",
+                         "name":  "La Lupe 95.3 Ciudad Victoria",
+                         "style":  "Regional • norteño • éxitos mexicanos",
+                         "group":  "regional",
+                         "priority":  420,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://mdstrm.com/audio/67379e3e9cbec50af5c979ac/icecast.audio"
+                                     ]
+                     },
+                     {
+                         "id":  "raza-victoria",
+                         "name":  "La Raza 89.3 Ciudad Victoria",
+                         "style":  "Ranchera • norteño • mariachi",
+                         "group":  "regional",
+                         "priority":  285,
+                         "enabled":  false,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://ice41.securenetsystems.net/LARAZA"
+                                     ],
+                         "disabledReason":  "Stream intermitente: múltiples auditorías 0/3 por timeout; conservar hasta encontrar URL estable",
+                         "lastHealthDecision":  "2026-09-29"
+                     },
+                     {
+                         "id":  "t-grande-monterrey",
+                         "name":  "La T Grande 990 Monterrey",
+                         "style":  "Grupera del recuerdo • ranchera",
+                         "group":  "regional",
+                         "priority":  180,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://mdstrm.com/audio/672a602bce5982a130a01a1d/icecast.audio"
+                                     ]
+                     },
+                     {
+                         "id":  "tkr-monterrey",
+                         "name":  "TKR 1480 Monterrey",
+                         "style":  "Grupera • norteño • ranchera",
+                         "group":  "regional",
+                         "priority":  190,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://mdstrm.com/audio/672a61c2bef01359b6913aea/icecast.audio"
+                                     ]
+                     },
+                     {
+                         "id":  "lupe-monterrey",
+                         "name":  "La Lupe 105.3 Monterrey",
+                         "style":  "Ranchera • mariachi • recuerdo",
+                         "group":  "regional",
+                         "priority":  150,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://mdstrm.com/audio/6737993c9422ca09f9b9ea70/icecast.audio"
+                                     ]
+                     },
+                     {
+                         "id":  "lupe-mazatlan",
+                         "name":  "La Lupe 92.1 Mazatlán",
+                         "style":  "Ranchera • banda • recuerdo",
+                         "group":  "regional",
+                         "priority":  160,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://mdstrm.com/audio/6737954c58fddafa2d93f0fb/icecast.audio?property=mmradio"
+                                     ]
+                     },
+                     {
+                         "id":  "lupe-culiacan",
+                         "name":  "La Lupe 90.7 Culiacán",
+                         "style":  "Ranchera • banda • recuerdo",
+                         "group":  "regional",
+                         "priority":  170,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://mdstrm.com/audio/6737870cf12274fb020c287a/icecast.audio?property=mmradio"
+                                     ]
+                     },
+                     {
+                         "id":  "dinamica-mexicali",
+                         "name":  "La Dinámica 105.9 Mexicali",
+                         "style":  "Regional mexicana • norteño",
+                         "group":  "regional",
+                         "priority":  430,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://sg.centrocibernetico.com/dinamica1059"
+                                     ]
+                     },
+                     {
+                         "id":  "mejor-leon",
+                         "name":  "La Mejor 99.9 León",
+                         "style":  "Regional mexicana • banda",
+                         "group":  "regional",
+                         "priority":  440,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHSOFM_SC"
+                                     ]
+                     },
+                     {
+                         "id":  "sabrosita-monterrey",
+                         "name":  "La Sabrosita 95.7 Monterrey",
+                         "style":  "Regional mexicana • grupera",
+                         "group":  "regional",
+                         "priority":  450,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/LASABROSITA_957FMAAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "mejor-tampico",
+                         "name":  "La Mejor 100.1 Tampico",
+                         "style":  "Regional mexicana • banda",
+                         "group":  "regional",
+                         "priority":  460,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHJT_SC"
+                                     ]
+                     },
+                     {
+                         "id":  "comadre-cuautla",
+                         "name":  "La Comadre 101.7 Cuautla",
+                         "style":  "Grupera • mariachi • regional",
+                         "group":  "regional",
+                         "priority":  470,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream20.usastreams.com:8070/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "tropical-caliente",
+                         "name":  "La Tropical Caliente 102.1",
+                         "style":  "Tropical · grupera · cumbia",
+                         "group":  "ranchera",
+                         "priority":  660,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://sonic.sistemahost.es/8038/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "morrita-mazatlan",
+                         "name":  "La Morrita 97.1 Mazatlán",
+                         "style":  "Banda norteña • regional",
+                         "group":  "norteno",
+                         "priority":  480,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://audiostreaming.luz.network/stream/11/;"
+                                     ]
+                     },
+                     {
+                         "id":  "grande-michoacan",
+                         "name":  "La Grande de Michoacán 95.1",
+                         "style":  "Regional mexicana",
+                         "group":  "regional",
+                         "priority":  490,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/5xptpdq1sy8uv"
+                                     ]
+                     },
+                     {
+                         "id":  "comadre-cdmx",
+                         "name":  "La Comadre 1260 CDMX",
+                         "style":  "Grupera • tradicional mexicana",
+                         "group":  "regional",
+                         "priority":  500,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "http://18363.live.streamtheworld.com:3690/XELAMAAC_SC"
+                                     ]
+                     },
+                     {
+                         "id":  "comadre-culiacan",
+                         "name":  "La Comadre 98.5 Culiacán",
+                         "style":  "Grupera • tradicional mexicana",
+                         "group":  "regional",
+                         "priority":  510,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "http://17643.live.streamtheworld.com/XHCLIFMAAC_SC",
+                                         "https://18533.live.streamtheworld.com:443/XHCLIFMAAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "poderosa-tijuana",
+                         "name":  "La Poderosa 860 Tijuana",
+                         "style":  "Grupera · ranchera · baladas 70/80",
+                         "group":  "regional",
+                         "priority":  200,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://streamingcwsradio30.com:7024/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "mejor-guadalajara",
+                         "name":  "La Mejor 95.5 Guadalajara",
+                         "style":  "Regional mexicana • banda",
+                         "group":  "regional",
+                         "priority":  520,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHRO_SC"
+                                     ]
+                     },
+                     {
+                         "id":  "fiera-veracruz",
+                         "name":  "La Fiera 94.1 Veracruz",
+                         "style":  "Regional mexicana • grupera",
+                         "group":  "regional",
+                         "priority":  530,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://fiera.centrocibernetico.com/",
+                                         "https://sg.centrocibernetico.com/lafiera"
+                                     ]
+                     },
+                     {
+                         "id":  "tumbado-100",
+                         "name":  "Tumbado al 100",
+                         "style":  "Corridos • urbano regional • sólo música",
+                         "group":  "norteno",
+                         "priority":  540,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR46_S01AAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "siempre-gruperos",
+                         "name":  "Siempre Gruperos",
+                         "style":  "Grupera • regional • sólo música",
+                         "group":  "regional",
+                         "priority":  550,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR07_s01AAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "comadre-pa-bailar",
+                         "name":  "La Comadre Pa\u0027 Bailar",
+                         "style":  "Banda • grupera • cumbia • sólo música",
+                         "group":  "regional",
+                         "priority":  650,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR08_s01AAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "kebuena-cdmx",
+                         "name":  "La Ke Buena 92.9 CDMX",
+                         "style":  "Regional mexicana • banda • grupera",
+                         "group":  "regional",
+                         "priority":  560,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "comadre-puebla",
+                         "name":  "La Comadre 105.5 Puebla",
+                         "style":  "Regional mexicana • banda • grupera",
+                         "group":  "regional",
+                         "priority":  570,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/XEHIT_SC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "bestia-cancun",
+                         "name":  "La Bestia Grupera 91.5 Cancún",
+                         "style":  "Grupera • regional mexicana",
+                         "group":  "regional",
+                         "priority":  580,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://ss1.audiorama.com.mx:6672/;"
+                                     ]
+                     },
+                     {
+                         "id":  "mejor-tijuana",
+                         "name":  "La Mejor 90.7 Tijuana",
+                         "style":  "Regional mexicana • grupera",
+                         "group":  "regional",
+                         "priority":  590,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTIMAAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "fiesta-mexicana-leon",
+                         "name":  "Fiesta Mexicana 102.3 León",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  600,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/wghs2vb6dkhvv"
+                                     ]
+                     },
+                     {
+                         "id":  "fiesta-mexicana-celaya",
+                         "name":  "Fiesta Mexicana 102.9 Celaya",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  610,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/uwcg6hb6dkhvv"
+                                     ]
+                     },
+                     {
+                         "id":  "fiesta-mexicana-irapuato",
+                         "name":  "Fiesta Mexicana 105.5 Irapuato",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  620,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/b19663h6dkhvv"
+                                     ]
+                     },
+                     {
+                         "id":  "fiesta-mexicana-tampico",
+                         "name":  "Fiesta Mexicana 91.7 Tampico",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  630,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/pxsn7t7zfkhvv"
+                                     ]
+                     },
+                     {
+                         "id":  "comadre-pachuca",
+                         "name":  "La Comadre 104.5 Pachuca",
+                         "style":  "Regional mexicana • banda • grupera",
+                         "group":  "regional",
+                         "priority":  640,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHRDAAC.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "mas-prendida-victoria",
+                         "name":  "La Más Prendida 97.5 Ciudad Victoria",
+                         "style":  "Grupera • ranchera • regional mexicana",
+                         "group":  "regional",
+                         "priority":  323,
+                         "enabled":  false,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://cast1.my-control-panel.com/proxy/lamasprendida/stream"
+                                     ],
+                         "disabledReason":  "Emisora vigente, pero el stream público responde HTTP 503 Server limit reached en auditorías repetidas; conservar hasta disponer de endpoint estable.",
+                         "lastHealthDecision":  "2026-10-01"
+                     },
+                     {
+                         "id":  "super-buena-mante",
+                         "name":  "La Súper Buena 95.7 Ciudad Mante",
+                         "style":  "Regional • norteño • ranchera",
+                         "group":  "regional",
+                         "priority":  240,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://cast1.my-control-panel.com/proxy/lsb/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "cotorra-victoria",
+                         "name":  "La Cotorra 101.7 Ciudad Victoria",
+                         "style":  "Grupera • norteño • ranchera",
+                         "group":  "regional",
+                         "priority":  230,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://cast1.my-control-panel.com/proxy/cotorra/stream"
+                                     ]
+                     },
+                     {
+                         "id":  "estereo-alegre-gt",
+                         "name":  "Estéreo Alegre 101.5",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  690,
+                         "enabled":  true,
+                         "country":  "GT",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.zeno.fm/597dgr66e2zuv"
+                                     ]
+                     },
+                     {
+                         "id":  "girasol-hn",
+                         "name":  "Girasol Stereo 102.3",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  700,
+                         "enabled":  true,
+                         "country":  "HN",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://stream.playerlive.info:8037/live.aac"
+                                     ]
+                     },
+                     {
+                         "id":  "raza-la-us",
+                         "name":  "La Raza 97.9",
+                         "style":  "Banda • grupera • regional",
+                         "group":  "regional",
+                         "priority":  680,
+                         "enabled":  true,
+                         "country":  "US",
+                         "musicFocus":  "mixed",
+                         "streams":  [
+                                         "https://liveaudio.lamusica.com/LA_KLAX_icy"
+                                     ]
+                     },
+                     {
+                         "id":  "tequila-fm-us",
+                         "name":  "Tequila FM",
+                         "style":  "Banda • corridos • norteño",
+                         "group":  "norteno",
+                         "priority":  670,
+                         "enabled":  true,
+                         "country":  "US",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://joe123-gecko.radioca.st/"
+                                     ]
+                     },
+                     {
+                         "id":  "cumbias-inmortales",
+                         "name":  "Cumbias Inmortales",
+                         "style":  "Cumbia grupera · tropical · norteña · recuerdo",
+                         "group":  "regional",
+                         "priority":  740,
+                         "enabled":  true,
+                         "country":  "MX",
+                         "musicFocus":  "high",
+                         "streams":  [
+                                         "https://panel.retrolandigital.com/listen/cumbias_inmortales_radio/listen"
+                                     ]
+                     }
+                 ]
 }
