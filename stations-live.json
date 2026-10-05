@@ -1,10 +1,10 @@
 {
     "schemaVersion":  1,
-    "catalogVersion":  14,
+    "catalogVersion":  15,
     "minAppVersionCode":  12,
     "refreshAfterMinutes":  30,
-    "generatedAt":  "2026-10-05T12:36:38.3519890-03:00",
-    "version":  14,
+    "generatedAt":  "2026-10-05T13:03:47.8207648-03:00",
+    "version":  15,
     "stations":  [
                      {
                          "id":  "solo-rancheras",
@@ -25,6 +25,7 @@
                          "priority":  30,
                          "enabled":  true,
                          "streams":  [
+                                         "https://panel.retrolandigital.com/listen/que_viva_mexico/app",
                                          "https://panel.retrolandigital.com/listen/que_viva_mexico/listen"
                                      ]
                      },
