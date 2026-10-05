@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 11,
+  "catalogVersion": 12,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 30,
-  "generatedAt": "2026-10-05T01:05:00-03:00",
-  "version": 11,
+  "generatedAt": "2026-10-05T09:26:13.7216226-03:00",
+  "version": 12,
   "stations": [
     {
       "id": "solo-rancheras",
-      "name": "Solo Rancheras [REMOTO v11]",
+      "name": "Solo Rancheras",
       "style": "Rancheras • corridos",
       "group": "ranchera",
       "priority": 10,
