@@ -1,42 +1,204 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-CL">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="FA APP STUDIO — desarrollo de aplicaciones y productos digitales.">
-  <title>FA APP STUDIO</title>
+  <meta name="theme-color" content="#091428">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="FA App Studio desarrolla aplicaciones Android fáciles de usar en Chile. Conoce Radio México de Siempre: emisoras de rancheras, mariachi y música mexicana, gratis en Google Play.">
+  <meta name="keywords" content="FA App Studio, Radio México de Siempre, aplicaciones Android, radio ranchera, música mexicana, mariachi, radio online, Chillán, Chile">
+  <meta name="author" content="FA App Studio">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="FA App Studio">
+  <meta property="og:title" content="FA App Studio · Radio México de Siempre">
+  <meta property="og:description" content="Aplicaciones sencillas para disfrutar más. Descubre Radio México de Siempre, nuestra app destacada, disponible gratis para Android.">
+  <meta property="og:url" content="https://fernandodevsr.github.io/">
+  <meta property="og:image" content="https://play-lh.googleusercontent.com/xFhhs1h_kBGgdxskFVnUC1KrjgUpOELKg52P15DSilA7-au7HioYkJybk9jdbbI28Is9GPd6T6lDofG9xXLcyA=w1052-h592-rw">
+  <meta property="og:image:alt" content="Radio México de Siempre, aplicación de FA App Studio">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://fernandodevsr.github.io/">
+  <link rel="icon" href="https://play-lh.googleusercontent.com/0Pzi9viFcpTtmi1oC8Kt0mcisMkskQ_d4C3DXLcQLcs7gzKYjn7hbidqSkML6eogBOApt_0C9tiRknqLq5o8=w240-h480-rw">
+  <title>FA App Studio | Radio México de Siempre para Android</title>
   <style>
-    :root{color-scheme:light dark;--bg:#0b1020;--card:#141b2d;--text:#f7f9fc;--muted:#b9c1d1;--accent:#7aa2ff;--line:#27324a}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#0b1020,#11182a);color:var(--text);min-height:100vh}
-    main{max-width:900px;margin:0 auto;padding:64px 24px}
-    .brand{font-weight:800;letter-spacing:.08em;font-size:clamp(2rem,6vw,4rem);margin:0}
-    .tag{color:var(--muted);font-size:1.08rem;margin:12px 0 36px}
-    .card{background:rgba(20,27,45,.92);border:1px solid var(--line);border-radius:20px;padding:28px;margin-top:24px;box-shadow:0 20px 50px rgba(0,0,0,.18)}
-    h2{margin-top:0}
-    a{color:#9db9ff}
-    .links{display:flex;gap:18px;flex-wrap:wrap;margin-top:24px}
-    footer{margin-top:48px;color:var(--muted);font-size:.95rem}
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:dark;--bg:#081222;--panel:#11213b;--panel2:#0b1a30;--line:#2b415f;--text:#f5f8ff;--muted:#c0cee2;--blue:#80b6ff;--gold:#edbd7c;--warm:#2b1d18}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit}
+    button,a{touch-action:manipulation}
+    a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+    .skip{position:absolute;top:-100px;left:12px;background:#fff;color:#122033;padding:12px;z-index:100}.skip:focus{top:12px}
+    .shell{width:min(1160px,calc(100% - 40px));margin:auto}
+    header{position:relative;z-index:2;background:rgba(8,18,34,.95);border-bottom:1px solid #21324d}
+    header .shell{min-height:82px;display:flex;align-items:center;gap:30px;justify-content:space-between}
+    .brand{display:inline-flex;align-items:center;gap:13px;text-decoration:none;white-space:nowrap;font-size:1rem;font-weight:800;letter-spacing:.035em}
+    .brandmark{width:44px;height:44px;border:1px solid #628ed0;display:grid;place-items:center;background:linear-gradient(135deg,#e9f1ff 0 52%,#488cf6 52%);border-radius:13px;color:#07182b;font-size:21px;font-weight:900;box-shadow:0 5px 25px #0d63fa19;letter-spacing:-.09em;padding-right:2px}
+    .brand .brandblue{color:var(--blue)}
+    nav{display:flex;gap:26px;align-items:center}nav a{font-size:.94rem;color:var(--muted);text-decoration:none;font-weight:650}nav a:hover{color:#fff}
+    .nav-download{padding:10px 16px;border:1px solid #5684bb;border-radius:10px!important;color:#fff!important}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 12%,#1d3a6b 0%,transparent 42%),linear-gradient(155deg,#0b1a31,#081222 62%)}
+    .hero::after{content:"";position:absolute;inset:auto -10% 0;height:1px;background:#4a76af}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:65px;padding:74px 0 85px}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--blue);font-size:.78rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+    .dot{display:inline-block;height:8px;width:8px;background:var(--gold);border-radius:50%}
+    h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.65rem,5.8vw,4.9rem);line-height:1.08;letter-spacing:-.05em;margin:21px 0 23px}
+    h1 span{color:var(--blue)}.lead{font-size:clamp(1rem,1.7vw,1.19rem);color:var(--muted);max-width:560px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 13px}
+    .button{min-height:51px;border-radius:12px;padding:12px 21px;display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;font-size:.96rem;font-weight:800;transition:transform .15s,background .15s}
+    .button:hover{transform:translateY(-2px)}
+    .primary{color:#0a1725;background:var(--gold);box-shadow:0 10px 32px #edbd7c30}
+    .primary:hover{background:#ffd79f}
+    .secondary{border:1px solid #6081af;background:#ffffff0b;color:#f0f5ff}
+    .secondary:hover{background:#ffffff18}
+    .fine{font-size:.82rem;color:#aebed3;line-height:1.5}
+    .spotlight{border:1px solid #48668d;background:linear-gradient(160deg,#183457,#102640 58%,#301f1a);padding:21px;border-radius:24px;box-shadow:0 30px 68px #0006;position:relative}
+    .spotlight-header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    .appicon{width:75px;height:75px;object-fit:cover;border-radius:17px;flex:0 0 auto;border:2px solid #ffffff45;background:#c5a56c}
+    .spotlight-title{font-size:1.32rem;line-height:1.15;font-weight:850;letter-spacing:-.02em;margin:4px 0 2px}
+    .badge{color:#f4d3a8;font-size:.72rem;font-weight:850;letter-spacing:.11em;text-transform:uppercase}
+    .store-images{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .store-images img{display:block;width:100%;height:auto;aspect-ratio:526 / 296;object-fit:cover;border:1px solid #ffffff33;border-radius:12px;background:#33251e}
+    .media-caption{margin:11px 0 0;color:#bdd0e4;font-size:.77rem}
+    .spotlight-foot{display:flex;justify-content:space-between;gap:8px;align-items:center;color:#d6e2ef;font-size:.85rem;margin-top:19px}
+    .tagline{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.chip{font-size:.8rem;color:#d8e6f8;border:1px solid #466084;padding:6px 10px;border-radius:100px}
+    section.content{padding:76px 0}section.content h2{font-size:clamp(2rem,3.7vw,3.15rem);letter-spacing:-.04em;line-height:1.15;max-width:770px;margin:11px 0 18px}
+    .section-intro{color:var(--muted);max-width:760px;font-size:1.08rem}
+    .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-top:34px}
+    .card{padding:24px 20px;border-radius:18px;background:#101e33;border:1px solid var(--line)}
+    .symbol{display:grid;place-items:center;width:45px;height:45px;background:#214574;border:1px solid #39699c;color:#d5e8ff;border-radius:13px;font-size:22px;margin-bottom:20px}
+    .card h3{font-size:1.07rem;margin:0 0 9px}.card p{margin:0;color:var(--muted);font-size:.92rem}
+    .features{background:#0b172a;border-top:1px solid #1b304b;border-bottom:1px solid #1b304b}
+    .feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .callout{background:linear-gradient(160deg,#34221d,#1e1b25);border:1px solid #6f523e;border-radius:24px;padding:32px}
+    .callout .large{color:#ffe0b8;font-family:Georgia,serif;font-size:clamp(1.7rem,3vw,2.7rem);line-height:1.25}
+    .callout p{color:#d8c0b4}
+    .ticks{padding:0;margin:18px 0 0;list-style:none}
+    .ticks li{position:relative;padding:8px 0 8px 27px;color:#d5e0ef}.ticks li:before{content:"✓";position:absolute;left:0;color:#9dc6ff;font-weight:900}
+    .share-panel{border-radius:24px;background:linear-gradient(125deg,#132c46,#15283d);border:1px solid #466483;padding:35px 38px;display:flex;justify-content:space-between;gap:25px;align-items:center}
+    .share-panel h2{font-size:clamp(1.65rem,3vw,2.65rem);margin:0 0 10px}.share-panel p{margin:0;color:var(--muted)}
+    .share-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .whatsapp{background:#c6ecca;color:#0b3820}
+    .whatsapp:hover{background:#e2ffe4}
+    .trust{font-size:.93rem;color:var(--muted);max-width:770px;margin:28px auto 0;text-align:center}
+    footer{background:#07101e;border-top:1px solid #263b56;padding:40px 0;color:#aebed3}
+    .footer-layout{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    footer p{margin:7px 0;font-size:.9rem}footer a{color:#d5e8ff;text-decoration:underline;text-underline-offset:3px}
+    .footer-links{display:flex;gap:16px;flex-wrap:wrap;align-content:center}
+    @media(max-width:960px){nav{gap:15px}.hero-grid{gap:35px}.cards{grid-template-columns:repeat(2,1fr)}.feature-grid{gap:30px}}
+    @media(max-width:750px){.shell{width:min(100% - 32px,530px)}header .shell{min-height:70px}.brand{font-size:.92rem}nav a:not(.nav-download){display:none}.nav-download{font-size:.79rem;padding:9px!important}.hero-grid{grid-template-columns:1fr;gap:26px;padding:51px 0 52px}h1{font-size:clamp(2.55rem,10vw,3.7rem)}.spotlight{max-width:530px;padding:15px}.spotlight-header{margin-bottom:13px}.appicon{width:62px;height:62px}.spotlight-title{font-size:1.12rem}.spotlight-foot{flex-wrap:wrap}.tagline{margin-top:18px}section.content{padding:55px 0}.feature-grid{grid-template-columns:1fr;gap:25px}.share-panel{flex-direction:column;align-items:flex-start;padding:25px}.share-actions{width:100%}.share-actions .button{flex:1}.cards{gap:11px}.card{padding:18px 15px}.card h3{font-size:1rem}.card p{font-size:.87rem}}
+    @media(max-width:420px){.actions{flex-direction:column}.actions .button{width:100%}.cards{grid-template-columns:1fr}.store-images{gap:6px}.share-actions{flex-direction:column}.share-actions .button{width:100%}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}
   </style>
 </head>
 <body>
-  <main>
-    <p class="brand">FA APP STUDIO</p>
-    <p class="tag">Aplicaciones simples, útiles y pensadas para funcionar bien.</p>
-
-    <section class="card">
-      <h2>Radio México de Siempre</h2>
-      <p>Radio mexicana, rancheras, mariachi, corridos y música de campo en una aplicación sencilla y directa.</p>
-      <div class="links">
-        <a href="/privacy.html">Política de privacidad</a>
-        <a href="mailto:faappstudio@gmail.com">Soporte</a>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header>
+    <div class="shell">
+      <a href="/" class="brand" aria-label="FA App Studio, inicio"><span class="brandmark" aria-hidden="true">FA</span><span>FA <span class="brandblue">APP</span> STUDIO</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#aplicacion">La aplicación</a>
+        <a href="#funciones">Funciones</a>
+        <a href="#compartir">Compartir</a>
+        <a class="nav-download" href="https://play.google.com/store/apps/details?id=cl.rancherasfacil.app" target="_blank" rel="noopener noreferrer">Descargar ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo">
+      <div class="shell hero-grid">
+        <div>
+          <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Estudio de aplicaciones · Chillán, Chile</span>
+          <h1 id="titulo">Apps sencillas.<br><span>Música que acompaña.</span></h1>
+          <p class="lead">Somos <strong>FA App Studio</strong>. Creamos aplicaciones móviles útiles y fáciles de usar. Nuestra app destacada es <strong>Radio México de Siempre</strong>: una forma simple de disfrutar emisoras de rancheras, mariachi y música mexicana por internet.</p>
+          <div class="actions">
+            <a class="button primary" href="https://play.google.com/store/apps/details?id=cl.rancherasfacil.app" target="_blank" rel="noopener noreferrer" aria-label="Instalar Radio México de Siempre desde Google Play">▶ Descargar gratis en Google Play ↗</a>
+            <a class="button secondary" href="#aplicacion">Conocer la radio ↓</a>
+          </div>
+          <p class="fine">Para teléfonos y tablets Android · Incluye anuncios · Requiere conexión a internet</p>
+          <div class="tagline"><span class="chip">Rancheras</span><span class="chip">Mariachi</span><span class="chip">Corridos</span><span class="chip">Música mexicana</span></div>
+        </div>
+        <div class="spotlight" aria-label="Aplicación destacada: Radio México de Siempre">
+          <div class="spotlight-header">
+            <img class="appicon" alt="Ícono oficial de Radio México de Siempre" src="https://play-lh.googleusercontent.com/0Pzi9viFcpTtmi1oC8Kt0mcisMkskQ_d4C3DXLcQLcs7gzKYjn7hbidqSkML6eogBOApt_0C9tiRknqLq5o8=w240-h480-rw" width="75" height="75" fetchpriority="high">
+            <div><span class="badge">★ Nuestra app destacada</span><div class="spotlight-title">Radio México de Siempre</div><span class="fine">Disponible en Google Play</span></div>
+          </div>
+          <div class="store-images">
+            <img alt="Primera imagen oficial de Radio México de Siempre en Google Play" src="https://play-lh.googleusercontent.com/xFhhs1h_kBGgdxskFVnUC1KrjgUpOELKg52P15DSilA7-au7HioYkJybk9jdbbI28Is9GPd6T6lDofG9xXLcyA=w526-h296-rw" width="526" height="296" loading="lazy">
+            <img alt="Segunda imagen oficial de Radio México de Siempre en Google Play" src="https://play-lh.googleusercontent.com/DCK7s5Qp_LUefQa0HkWOAQJ-m-W4zKkC6vjLdk2AOpcyU6NIolD6zBpCNQdMLkVC31ay4mQol6x92yZE72w5-A=w526-h296-rw" width="526" height="296" loading="lazy">
+          </div>
+          <p class="media-caption">Imágenes de la ficha oficial de Google Play.</p>
+          <div class="spotlight-foot"><span>📻 Radio online · Android</span><a href="https://play.google.com/store/apps/details?id=cl.rancherasfacil.app" target="_blank" rel="noopener noreferrer">Ver en Google Play ↗</a></div>
+        </div>
       </div>
     </section>
-
-    <footer>
-      <p>Contacto: <a href="mailto:faappstudio@gmail.com">faappstudio@gmail.com</a></p>
-      <p>© 2026 FA APP STUDIO</p>
-    </footer>
+    <section id="aplicacion" class="content">
+      <div class="shell">
+        <span class="eyebrow">Nuestra primera aplicación destacada</span>
+        <h2>Las rancheras de siempre, a un toque de distancia.</h2>
+        <p class="section-intro">Abre la aplicación, elige tus emisoras y disfruta música mexicana tradicional. Diseñada para quienes prefieren escuchar sin cuentas, registros ni menús complicados.</p>
+        <div class="cards" id="funciones">
+          <article class="card"><span class="symbol" aria-hidden="true">▶</span><h3>Abres y escuchas</h3><p>La reproducción comienza al abrir la aplicación.</p></article>
+          <article class="card"><span class="symbol" aria-hidden="true">☷</span><h3>Botones grandes</h3><p>Cambia de emisora y controla el volumen con facilidad.</p></article>
+          <article class="card"><span class="symbol" aria-hidden="true">☆</span><h3>Tus favoritas</h3><p>Guarda las emisoras que más te gustan para volver a ellas.</p></article>
+          <article class="card"><span class="symbol" aria-hidden="true">♫</span><h3>Sigue sonando</h3><p>Escucha en segundo plano mientras usas otras aplicaciones.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="content features">
+      <div class="shell feature-grid">
+        <div class="callout">
+          <p class="badge">Música para disfrutar</p>
+          <p class="large">Para quienes crecieron escuchando rancheras… <strong>y nunca dejaron de quererlas.</strong></p>
+          <p>Mariachi, corridos, música norteña y clásicos mexicanos, reunidos en distintas emisoras.</p>
+        </div>
+        <div>
+          <span class="eyebrow">Una radio de uso sencillo</span>
+          <h2>Una experiencia clara, sin complicaciones.</h2>
+          <p class="section-intro">Pensada también para personas adultas y mayores, con controles fáciles de reconocer.</p>
+          <ul class="ticks">
+            <li>Escucha en tu teléfono Android, estés en Chile o en otro lugar con internet.</li>
+            <li>Continúa reproduciendo con la pantalla bloqueada.</li>
+            <li>Si una señal no está disponible, la aplicación puede buscar otra alternativa.</li>
+            <li>No necesitas crear una cuenta para comenzar.</li>
+          </ul>
+          <div class="actions"><a class="button primary" href="https://play.google.com/store/apps/details?id=cl.rancherasfacil.app" target="_blank" rel="noopener noreferrer">Instalar la radio ↗</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="content" id="compartir">
+      <div class="shell">
+        <div class="share-panel">
+          <div>
+            <span class="eyebrow">Que la música siga sonando</span>
+            <h2>¿Conoces a alguien que ama las rancheras?</h2>
+            <p>Compártele el enlace oficial de la radio a través de WhatsApp o de la red que prefieras.</p>
+          </div>
+          <div class="share-actions">
+            <a class="button whatsapp" href="https://wa.me/?text=Te%20comparto%20Radio%20M%C3%A9xico%20de%20Siempre%2C%20una%20app%20para%20escuchar%20rancheras%20y%20m%C3%BAsica%20mexicana%3A%20https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcl.rancherasfacil.app" target="_blank" rel="noopener noreferrer">Compartir por WhatsApp ↗</a>
+            <button class="button secondary" type="button" id="copy">Copiar enlace</button>
+          </div>
+        </div>
+        <p class="trust">Radio México de Siempre es gratis con anuncios. Las transmisiones necesitan conexión a internet y la programación depende de cada emisora. Es una aplicación independiente desarrollada por FA App Studio.</p>
+      </div>
+    </section>
   </main>
+  <footer>
+    <div class="shell footer-layout">
+      <div><a class="brand" href="/" aria-label="FA App Studio"><span class="brandmark" aria-hidden="true">FA</span><span>FA <span class="brandblue">APP</span> STUDIO</span></a><p>Aplicaciones simples, útiles y pensadas para funcionar bien.</p><p>© 2026 FA App Studio · Chillán, Chile.</p></div>
+      <div class="footer-links"><a href="https://www.facebook.com/people/FA-App-Studio/61595522407823/" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://play.google.com/store/apps/details?id=cl.rancherasfacil.app" target="_blank" rel="noopener noreferrer">Google Play</a><a href="/privacy.html">Privacidad</a><a href="mailto:faappstudio@gmail.com">Contacto</a></div>
+    </div>
+  </footer>
+  <script>
+    (function(){
+      var b=document.getElementById("copy");
+      if(!b)return;
+      b.addEventListener("click",function(){
+        var url="https://play.google.com/store/apps/details?id=cl.rancherasfacil.app";
+        if(!navigator.clipboard){b.textContent="Mantén pulsado el enlace de Google Play para copiarlo";return}
+        navigator.clipboard.writeText(url).then(function(){b.textContent="¡Enlace copiado!";setTimeout(function(){b.textContent="Copiar enlace"},2400)},function(){b.textContent="Usa el botón de Google Play"})
+      })
+    })();
+  </script>
 </body>
 </html>
