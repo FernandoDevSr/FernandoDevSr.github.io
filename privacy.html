@@ -17,12 +17,23 @@
     p,li{color:#d7ddea}
     .meta{color:var(--muted)}
     a{color:var(--accent)}
-    .back{display:inline-block;margin-bottom:22px}
+    .policy-nav{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:22px}
+    .policy-nav a{display:inline-flex;align-items:center;gap:7px;padding:10px 14px;border:1px solid var(--line);border-radius:11px;background:#1b263a;color:#e7edfc;text-decoration:none;font-size:.9rem;font-weight:700;line-height:1.35}
+    .policy-nav a:hover,.policy-nav a:focus-visible{border-color:var(--accent);background:#233452}
+    .policy-nav a:focus-visible,.policy-links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    .policy-links{margin-top:26px;padding:19px 21px;border:1px solid var(--line);border-radius:14px;background:#101a2b}
+    .policy-links strong{display:block;color:var(--text);margin-bottom:8px}
+    .policy-links p{margin:0;font-size:.92rem}
+    .policy-links a{font-weight:700;text-underline-offset:3px}
+    @media(max-width:540px){main{padding:25px 16px 48px}.policy-nav a{width:100%;justify-content:center;text-align:center}}
   </style>
 </head>
 <body>
   <main>
-    <a class="back" href="/">← FA APP STUDIO</a>
+    <nav class="policy-nav" aria-label="Sitios oficiales de FA App Studio">
+      <a href="https://faappstudio.github.io/">← Página principal de FA App Studio</a>
+      <a href="https://faappstudio.github.io/radio-mexico-de-siempre/">♫ Radio México de Siempre</a>
+    </nav>
     <article>
       <h1>Política de privacidad</h1>
       <p><strong>Radio México de Siempre</strong></p>
@@ -73,6 +84,10 @@
       <p>FA APP STUDIO<br>
       Correo: <a href="mailto:faappstudio@gmail.com">faappstudio@gmail.com</a></p>
     </article>
+    <nav class="policy-links" aria-label="Más información oficial">
+      <strong>Más información sobre FA App Studio y la aplicación</strong>
+      <p>Conoce nuestro <a href="https://faappstudio.github.io/">sitio oficial de FA App Studio</a> o visita la <a href="https://faappstudio.github.io/radio-mexico-de-siempre/">página de Radio México de Siempre</a> para ver sus funciones y descargarla desde Google Play.</p>
+    </nav>
   </main>
 </body>
 </html>
