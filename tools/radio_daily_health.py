@@ -118,7 +118,7 @@ def probe(url, depth=0):
         # Algunas radios utilizan respuestas ICY en vez de HTTP.
         # Un ICY 401 NO es audio: es un rechazo del servidor.
         raw = str(error).strip()
-        match = re.search(r"^ICY\\s+(\\d{3})", raw, re.I)
+        match = re.search(r"^ICY\s+(\d{3})", raw, re.I)
         if match:
             out["http_status"] = int(match.group(1))
             out["reason"] = "ICY_" + match.group(1)
