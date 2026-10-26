@@ -5,6 +5,7 @@ import concurrent.futures
 import csv
 import datetime as dt
 import difflib
+import http.client
 import json
 import pathlib
 import re
@@ -113,6 +114,17 @@ def probe(url, depth=0):
     except urllib.error.HTTPError as error:
         out["http_status"] = error.code
         out["reason"] = "HTTP_" + str(error.code)
+    except http.client.BadStatusLine as error:
+        # Algunas radios utilizan respuestas ICY en vez de HTTP.
+        # Un ICY 401 NO es audio: es un rechazo del servidor.
+        raw = str(error).strip()
+        match = re.search(r"^ICY\\s+(\\d{3})", raw, re.I)
+        if match:
+            out["http_status"] = int(match.group(1))
+            out["reason"] = "ICY_" + match.group(1)
+        else:
+            out["reason"] = "INVALID_HTTP_STATUS"
+        out["error"] = raw[:160]
     except Exception as error:
         out["reason"] = type(error).__name__
         out["error"] = str(error)[:160]
