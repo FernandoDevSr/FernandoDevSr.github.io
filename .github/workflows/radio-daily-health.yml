@@ -27,14 +27,18 @@ jobs:
       - name: Leer monitor
         uses: actions/checkout@v4
 
-      - name: Verificar Python y ffprobe
+      - name: Verificar entorno sin instalaciones bloqueantes
+        shell: bash
+        timeout-minutes: 2
         run: |
+          set -euo pipefail
           python3 --version
-          if ! command -v ffprobe >/dev/null; then
-            sudo apt-get update -qq
-            sudo apt-get install -y -qq ffmpeg
+          python3 -m py_compile tools/radio_daily_health.py
+          if command -v ffprobe >/dev/null; then
+            timeout 5s ffprobe -version | head -n 1
+          else
+            echo 'FFprobe no disponible: la auditoria usara firmas binarias de audio.'
           fi
-          ffprobe -version | head -n 1
 
       - name: Recuperar historial de la ultima auditoria
         shell: bash
@@ -49,8 +53,9 @@ jobs:
 
       - name: Probar audio, tiempos y buscar alternativas
         id: test
+        timeout-minutes: 27
         continue-on-error: true
-        run: python3 tools/radio_daily_health.py --output reports --previous previous/health.json
+        run: timeout --signal=TERM --kill-after=10s 25m python3 -u tools/radio_daily_health.py --output reports --previous previous/health.json
 
       - name: Mostrar resumen por emisora
         if: always()
