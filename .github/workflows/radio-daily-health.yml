@@ -8,7 +8,7 @@ on:
       - 'tools/radio_daily_health.py'
       - '.github/workflows/radio-daily-health.yml'
   schedule:
-    - cron: '37 9 * * *'
+    - cron: '37 1,9,17 * * *'
       timezone: 'America/Santiago'
 
 permissions:
