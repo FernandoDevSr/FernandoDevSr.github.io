@@ -1,0 +1,81 @@
+name: Radio Mexico - auditoria diaria
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/radio_daily_health.py'
+      - '.github/workflows/radio-daily-health.yml'
+  schedule:
+    - cron: '37 9 * * *'
+      timezone: 'America/Santiago'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: radio-mx-daily-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Leer monitor
+        uses: actions/checkout@v4
+
+      - name: Verificar Python y ffprobe
+        run: |
+          python3 --version
+          if ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffprobe -version | head -n 1
+
+      - name: Recuperar historial de la ultima auditoria
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p previous
+          previous_run="$(gh run list --workflow radio-daily-health.yml --limit 12 --json databaseId,status --jq '[.[] | select(.status=="completed")][0].databaseId // empty' || true)"
+          if [[ -n "$previous_run" ]]; then
+            gh run download "$previous_run" --name radio-mx-health --dir previous || true
+          fi
+
+      - name: Probar audio, tiempos y buscar alternativas
+        id: test
+        continue-on-error: true
+        run: python3 tools/radio_daily_health.py --output reports --previous previous/health.json
+
+      - name: Mostrar resumen por emisora
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f reports/HEALTH-REPORT.md ]]; then
+            cat reports/HEALTH-REPORT.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'No se genero reporte, revisar errores del monitor.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Guardar CSV, JSON y Markdown
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radio-mx-health
+          path: reports/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Registrar alerta en Actions
+        if: always()
+        shell: bash
+        run: |
+          if [[ "${{ steps.test.outcome }}" != "success" ]]; then
+            echo 'Auditoria con error o fallo confirmado durante dos dias: revisar reporte.' >&2
+            exit 1
+          fi
