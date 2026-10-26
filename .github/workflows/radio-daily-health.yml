@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'tools/radio_daily_health.py'
+      - 'stations-live.json'
       - '.github/workflows/radio-daily-health.yml'
   schedule:
     - cron: '37 1,9,17 * * *'
