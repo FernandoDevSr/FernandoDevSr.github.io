@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": 16,
+  "catalogVersion": 17,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 30,
-  "generatedAt": "2026-10-26T23:18:25.641Z",
-  "version": 16,
+  "generatedAt": "2026-10-27T19:47:11.925Z",
+  "version": 17,
   "stations": [
     {
       "id": "solo-rancheras",
@@ -232,10 +232,12 @@
       "style": "Rancheras • recuerdo",
       "group": "ranchera",
       "priority": 200,
-      "enabled": true,
+      "enabled": false,
       "streams": [
         "https://radios.blumhost.es/8124/;"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "ranchito-sanluis",
@@ -243,10 +245,12 @@
       "style": "Rancheras • recuerdo",
       "group": "ranchera",
       "priority": 150,
-      "enabled": true,
+      "enabled": false,
       "streams": [
         "https://radios.blumhost.es/8134/;"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "ranchera-973",
@@ -265,12 +269,14 @@
       "style": "Regional mexicano • ranchera",
       "group": "ranchera",
       "priority": 110,
-      "enabled": true,
+      "enabled": false,
       "country": "MX",
       "musicFocus": "mixed",
       "streams": [
         "https://icy.gvstream.live/gpm-cq.aac"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "ranchera-sv",
@@ -390,10 +396,12 @@
       "style": "Norteño • regional",
       "group": "norteno",
       "priority": 390,
-      "enabled": true,
+      "enabled": false,
       "streams": [
         "https://streamingcwsradio30.com/8076/stream"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "fiesta-picuda",
@@ -553,12 +561,14 @@
       "style": "Regional mexicana • norteño",
       "group": "regional",
       "priority": 430,
-      "enabled": true,
+      "enabled": false,
       "country": "MX",
       "musicFocus": "mixed",
       "streams": [
         "https://sg.centrocibernetico.com/dinamica1059"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "mejor-leon",
@@ -802,12 +812,14 @@
       "style": "Regional mexicana • grupera",
       "group": "regional",
       "priority": 600,
-      "enabled": true,
+      "enabled": false,
       "country": "MX",
       "musicFocus": "mixed",
       "streams": [
         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTIMAAC.aac"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "fiesta-mexicana-leon",
@@ -936,12 +948,14 @@
       "style": "Banda • grupera • regional",
       "group": "regional",
       "priority": 700,
-      "enabled": true,
+      "enabled": false,
       "country": "HN",
       "musicFocus": "mixed",
       "streams": [
         "https://stream.playerlive.info:8037/live.aac"
-      ]
+      ],
+      "disabledReason": "Auditoría Android tablet (2026-10-27): fallos de inicio de reproducción repetidos, sin arranque exitoso; pendiente de señal de reemplazo verificada",
+      "disabledAt": "2026-10-27"
     },
     {
       "id": "raza-la-us",
@@ -1032,6 +1046,18 @@
       "musicFocus": "high",
       "streams": [
         "https://stream.zeno.fm/ssmz1n5vmd0uv"
+      ]
+    },
+    {
+      "id": "rancho-grande-fm",
+      "name": "Rancho Grande FM",
+      "style": "Rancheras mexicanas clásicas • música de antaño",
+      "group": "ranchera",
+      "priority": 35,
+      "enabled": true,
+      "musicFocus": "high",
+      "streams": [
+        "http://ec7.yesstreaming.net:1480/stream"
       ]
     }
   ]
