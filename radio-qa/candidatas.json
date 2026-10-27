@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-27-musica-prioritaria-03",
+  "updatedDate": "2026-10-27",
+  "purpose": "Candidatas para pruebas Android; ninguna aprobada para produccion; medir ademas la cantidad de musica real.",
+  "stations": [
+    {
+      "id": "sonido-pegasso",
+      "name": "Radio Sonido Pegasso (Monterrey)",
+      "url": "https://radioenhd.com/8322/stream",
+      "country": "MX",
+      "style": "Grupera y norteña clásica, años 80-90",
+      "musicEvidence": "Historial de canciones Los Mier, Lalo Mora, Sonido Mazter y Tropical Panamá",
+      "talkRisk": "NO_CONFIRMADO",
+      "source": "https://netplayer.net/radio/radio-sonido-pegasso-7929/listen",
+      "priority": "ALTA"
+    },
+    {
+      "id": "radio-art-nortena",
+      "name": "Radio Art - Norteña",
+      "url": "https://live.radioart.com/fNortena.mp3",
+      "country": "GR",
+      "style": "Música norteña/instrumental a verificar",
+      "musicEvidence": "Directorio publica enlace MP3 y etiqueta musical; repertorio exacto no comprobado",
+      "talkRisk": "NO_CONFIRMADO",
+      "source": "https://globalradio.app/greece/radio-art-nortena/",
+      "priority": "EXPLORATORIA"
+    },
+    {
+      "id": "zona-grupera-mty",
+      "name": "Zona Grupera (Monterrey)",
+      "url": "https://az11.yesstreaming.net:8500/;",
+      "country": "MX",
+      "style": "Grupera, norteña y cumbia, posible pop latino",
+      "musicEvidence": "Historial con Los Traileros, Raúl Hernández, Los Reyes Locos; estilo mixto",
+      "talkRisk": "MEDIO",
+      "source": "https://radivu.com/listen/zona-grupera-monterrey",
+      "priority": "EXPLORATORIA"
+    },
+    {
+      "id": "el-sol-tijuana-1077",
+      "name": "El Sol 107.7 (Tijuana)",
+      "url": "https://vsstreaming.com/8026/stream",
+      "country": "MX",
+      "style": "Grupera del recuerdo y clásicos en español",
+      "musicEvidence": "Ficha de Radio Browser para grupera y clásicos; hablar/comerciales por verificar",
+      "talkRisk": "MEDIO_ALTO",
+      "source": "https://de1.api.radio-browser.info/json/stations/byname/El%20Sol%20107.7",
+      "priority": "EXPLORATORIA"
+    }
+  ]
+}
