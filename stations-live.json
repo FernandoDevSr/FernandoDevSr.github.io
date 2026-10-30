@@ -1,16 +1,148 @@
 {
+  "categories": [
+    {
+      "id": "ranchera",
+      "name": "Rancheras",
+      "order": 0,
+      "parent": "",
+      "aliases": [
+        "ranchera"
+      ]
+    },
+    {
+      "id": "rancheras-chilenas",
+      "name": "Rancheras chilenas",
+      "order": 10,
+      "parent": "ranchera",
+      "aliases": [
+        "rancheras chilenas"
+      ]
+    },
+    {
+      "id": "musica-mexicana",
+      "name": "Música mexicana",
+      "order": 20,
+      "parent": "",
+      "aliases": [
+        "musica mexicana"
+      ]
+    },
+    {
+      "id": "mexicanas-antano",
+      "name": "Mexicanas de antaño",
+      "order": 30,
+      "parent": "musica-mexicana",
+      "aliases": [
+        "mexicanas antano"
+      ]
+    },
+    {
+      "id": "corridos",
+      "name": "Corridos",
+      "order": 40,
+      "parent": "musica-mexicana",
+      "aliases": [
+        "corridos"
+      ]
+    },
+    {
+      "id": "mariachi",
+      "name": "Mariachi",
+      "order": 50,
+      "parent": "musica-mexicana",
+      "aliases": [
+        "mariachi"
+      ]
+    },
+    {
+      "id": "norteno",
+      "name": "Norteña",
+      "order": 60,
+      "parent": "musica-mexicana",
+      "aliases": [
+        "norteno"
+      ]
+    },
+    {
+      "id": "banda",
+      "name": "Banda",
+      "order": 70,
+      "parent": "musica-mexicana",
+      "aliases": [
+        "banda"
+      ]
+    },
+    {
+      "id": "cumbia",
+      "name": "Cumbia",
+      "order": 80,
+      "parent": "",
+      "aliases": [
+        "cumbia"
+      ]
+    },
+    {
+      "id": "balada",
+      "name": "Balada",
+      "order": 90,
+      "parent": "",
+      "aliases": [
+        "balada"
+      ]
+    },
+    {
+      "id": "campo",
+      "name": "Campo",
+      "order": 100,
+      "parent": "",
+      "aliases": [
+        "campo"
+      ]
+    },
+    {
+      "id": "grupera",
+      "name": "Grupera",
+      "order": 110,
+      "parent": "",
+      "aliases": [
+        "grupera"
+      ]
+    },
+    {
+      "id": "regional-mexicana",
+      "name": "Regional mexicana",
+      "order": 120,
+      "parent": "musica-mexicana",
+      "aliases": [
+        "regional mexicana"
+      ]
+    },
+    {
+      "id": "tropical",
+      "name": "Tropical",
+      "order": 130,
+      "parent": "",
+      "aliases": [
+        "tropical"
+      ]
+    }
+  ],
   "schemaVersion": 1,
-  "catalogVersion": 18,
+  "catalogVersion": 19,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 30,
   "generatedAt": "2026-10-29T18:52:32Z",
-  "version": 18,
+  "version": 19,
   "stations": [
     {
       "id": "solo-rancheras",
       "name": "Solo Rancheras",
       "style": "Rancheras • corridos",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "corridos"
+      ],
       "genres": [
         "ranchera",
         "corridos"
@@ -28,6 +160,9 @@
       "name": "Qué Viva México",
       "style": "Clásicos mexicanos",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -45,6 +180,9 @@
       "name": "Mariachi Digital",
       "style": "Mariachi tradicional",
       "group": "mariachi",
+      "categoryIds": [
+        "mariachi"
+      ],
       "genres": [
         "mariachi"
       ],
@@ -61,6 +199,10 @@
       "name": "Llegó El Mariachi",
       "style": "Mariachi • ranchera • tradicional mexicana",
       "group": "mariachi",
+      "categoryIds": [
+        "mariachi",
+        "ranchera"
+      ],
       "genres": [
         "mariachi",
         "ranchera"
@@ -78,6 +220,9 @@
       "name": "Viva El Mariachi",
       "style": "Mariachi • música de antes",
       "group": "mariachi",
+      "categoryIds": [
+        "mariachi"
+      ],
       "genres": [
         "mariachi"
       ],
@@ -96,6 +241,10 @@
       "name": "Radio Campirana",
       "style": "Ranchera • campo",
       "group": "campo",
+      "categoryIds": [
+        "campo",
+        "ranchera"
+      ],
       "genres": [
         "campo",
         "ranchera"
@@ -113,6 +262,9 @@
       "name": "Radio Favorita Ranchera",
       "style": "Ranchera • Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -129,6 +281,9 @@
       "name": "Radio La Mera Mera Chillán",
       "style": "Ranchera • mexicana • Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -145,6 +300,12 @@
       "name": "Radio La Mexicana Chile",
       "style": "Ranchera · corridos · cumbia · tropical · Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "corridos",
+        "cumbia",
+        "tropical"
+      ],
       "genres": [
         "ranchera",
         "corridos",
@@ -164,6 +325,9 @@
       "name": "La Mexicana Casablanca",
       "style": "Música mexicana • Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -180,6 +344,10 @@
       "name": "Radio Tropikal Ranchera",
       "style": "Ranchera tropical • Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "tropical"
+      ],
       "genres": [
         "ranchera",
         "tropical"
@@ -197,6 +365,9 @@
       "name": "Radio La Chúkara",
       "style": "Ranchera • Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -213,6 +384,11 @@
       "name": "Radio Caramelo San Vicente",
       "style": "Tropical · cumbia · ranchera · Chile",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "cumbia",
+        "tropical"
+      ],
       "genres": [
         "ranchera",
         "cumbia",
@@ -231,6 +407,9 @@
       "name": "Radio Ranchito Calvillo",
       "style": "Rancheras",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -247,6 +426,9 @@
       "name": "Radio Ranchito",
       "style": "Rancheras",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -263,6 +445,10 @@
       "name": "La Ranchera 98.3 Apatzingán",
       "style": "Ranchera • mariachi • regional",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "mariachi"
+      ],
       "genres": [
         "ranchera",
         "mariachi"
@@ -280,6 +466,10 @@
       "name": "La Rancherita 106.3",
       "style": "Ranchera • mariachi",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "mariachi"
+      ],
       "genres": [
         "ranchera",
         "mariachi"
@@ -297,6 +487,9 @@
       "name": "La Ranchera 97.3",
       "style": "Ranchera",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -313,6 +506,9 @@
       "name": "Radio Ranchera",
       "style": "Ranchera",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
@@ -329,6 +525,10 @@
       "name": "La Ke Buena 95.9",
       "style": "Regional • banda • norteño",
       "group": "regional",
+      "categoryIds": [
+        "norteno",
+        "banda"
+      ],
       "genres": [
         "norteño",
         "banda"
@@ -346,6 +546,9 @@
       "name": "San Juan FM 96.1",
       "style": "Regional • mariachi",
       "group": "mariachi",
+      "categoryIds": [
+        "mariachi"
+      ],
       "genres": [
         "mariachi"
       ],
@@ -362,6 +565,9 @@
       "name": "La Poderosa 88.9",
       "style": "Regional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "regional-mexicana"
+      ],
       "genres": [
         "regional mexicana"
       ],
@@ -378,6 +584,11 @@
       "name": "Historias y Corridos",
       "style": "Corridos • norteño • banda • sólo música",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "banda",
+        "corridos"
+      ],
       "genres": [
         "norteño",
         "banda",
@@ -396,6 +607,9 @@
       "name": "La Invasora 90.5",
       "style": "Norteño • regional",
       "group": "norteno",
+      "categoryIds": [
+        "norteno"
+      ],
       "genres": [
         "norteño"
       ],
@@ -412,6 +626,10 @@
       "name": "Vibra Radio 89.7",
       "style": "Banda • norteño",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "banda"
+      ],
       "genres": [
         "norteño",
         "banda"
@@ -429,6 +647,9 @@
       "name": "La Poderosa 94.3",
       "style": "Regional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "regional-mexicana"
+      ],
       "genres": [
         "regional mexicana"
       ],
@@ -445,6 +666,9 @@
       "name": "La Poderosa Oaxaca",
       "style": "Tradicional mexicana",
       "group": "campo",
+      "categoryIds": [
+        "campo"
+      ],
       "genres": [
         "campo"
       ],
@@ -461,6 +685,9 @@
       "name": "La Mejor 103.3",
       "style": "Regional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "regional-mexicana"
+      ],
       "genres": [
         "regional mexicana"
       ],
@@ -477,6 +704,10 @@
       "name": "Fiesta La Más Picuda",
       "style": "Banda • norteña",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "banda"
+      ],
       "genres": [
         "norteño",
         "banda"
@@ -494,6 +725,10 @@
       "name": "Buenisiima 88.5",
       "style": "Grupera • regional",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "grupera"
+      ],
       "genres": [
         "norteño",
         "grupera"
@@ -511,6 +746,10 @@
       "name": "La Ke Buena 90.1",
       "style": "Banda • mariachi",
       "group": "mariachi",
+      "categoryIds": [
+        "mariachi",
+        "banda"
+      ],
       "genres": [
         "mariachi",
         "banda"
@@ -528,6 +767,9 @@
       "name": "La Mejor Mazatlán 102.7",
       "style": "Banda • regional",
       "group": "regional",
+      "categoryIds": [
+        "banda"
+      ],
       "genres": [
         "banda"
       ],
@@ -544,6 +786,9 @@
       "name": "La Lupe 95.3 Ciudad Victoria",
       "style": "Regional • norteño • éxitos mexicanos",
       "group": "regional",
+      "categoryIds": [
+        "norteno"
+      ],
       "genres": [
         "norteño"
       ],
@@ -560,6 +805,10 @@
       "name": "La T Grande 990 Monterrey",
       "style": "Grupera del recuerdo • ranchera",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "grupera"
+      ],
       "genres": [
         "ranchera",
         "grupera"
@@ -577,6 +826,11 @@
       "name": "TKR 1480 Monterrey",
       "style": "Grupera • norteño • ranchera",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "norteno",
+        "grupera"
+      ],
       "genres": [
         "ranchera",
         "norteño",
@@ -595,6 +849,10 @@
       "name": "La Lupe 105.3 Monterrey",
       "style": "Ranchera • mariachi • recuerdo",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "mariachi"
+      ],
       "genres": [
         "ranchera",
         "mariachi"
@@ -612,6 +870,10 @@
       "name": "La Lupe 92.1 Mazatlán",
       "style": "Ranchera • banda • recuerdo",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "banda"
+      ],
       "genres": [
         "ranchera",
         "banda"
@@ -629,6 +891,10 @@
       "name": "La Lupe 90.7 Culiacán",
       "style": "Ranchera • banda • recuerdo",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "banda"
+      ],
       "genres": [
         "ranchera",
         "banda"
@@ -646,6 +912,9 @@
       "name": "La Mejor 99.9 León",
       "style": "Regional mexicana • banda",
       "group": "regional",
+      "categoryIds": [
+        "banda"
+      ],
       "genres": [
         "banda"
       ],
@@ -662,6 +931,9 @@
       "name": "La Sabrosita 95.7 Monterrey",
       "style": "Regional mexicana • grupera",
       "group": "regional",
+      "categoryIds": [
+        "grupera"
+      ],
       "genres": [
         "grupera"
       ],
@@ -678,6 +950,9 @@
       "name": "La Mejor 100.1 Tampico",
       "style": "Regional mexicana • banda",
       "group": "regional",
+      "categoryIds": [
+        "banda"
+      ],
       "genres": [
         "banda"
       ],
@@ -694,6 +969,10 @@
       "name": "La Comadre 101.7 Cuautla",
       "style": "Grupera • mariachi • regional",
       "group": "regional",
+      "categoryIds": [
+        "mariachi",
+        "grupera"
+      ],
       "genres": [
         "mariachi",
         "grupera"
@@ -711,6 +990,12 @@
       "name": "La Tropical Caliente 102.1",
       "style": "Tropical · grupera · cumbia",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera",
+        "grupera",
+        "cumbia",
+        "tropical"
+      ],
       "genres": [
         "ranchera",
         "grupera",
@@ -730,6 +1015,10 @@
       "name": "La Morrita 97.1 Mazatlán",
       "style": "Banda norteña • regional",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "banda"
+      ],
       "genres": [
         "norteño",
         "banda"
@@ -747,6 +1036,9 @@
       "name": "La Grande de Michoacán 95.1",
       "style": "Regional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "regional-mexicana"
+      ],
       "genres": [
         "regional mexicana"
       ],
@@ -763,6 +1055,9 @@
       "name": "La Comadre 1260 CDMX",
       "style": "Grupera • tradicional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "grupera"
+      ],
       "genres": [
         "grupera"
       ],
@@ -779,6 +1074,9 @@
       "name": "La Comadre 98.5 Culiacán",
       "style": "Grupera • tradicional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "grupera"
+      ],
       "genres": [
         "grupera"
       ],
@@ -796,6 +1094,11 @@
       "name": "La Poderosa 860 Tijuana",
       "style": "Grupera · ranchera · baladas 70/80",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "grupera",
+        "balada"
+      ],
       "genres": [
         "ranchera",
         "grupera",
@@ -814,6 +1117,9 @@
       "name": "La Mejor 95.5 Guadalajara",
       "style": "Regional mexicana • banda",
       "group": "regional",
+      "categoryIds": [
+        "banda"
+      ],
       "genres": [
         "banda"
       ],
@@ -830,6 +1136,9 @@
       "name": "La Fiera 94.1 Veracruz",
       "style": "Regional mexicana • grupera",
       "group": "regional",
+      "categoryIds": [
+        "grupera"
+      ],
       "genres": [
         "grupera"
       ],
@@ -847,6 +1156,10 @@
       "name": "Tumbado al 100",
       "style": "Corridos • urbano regional • sólo música",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "corridos"
+      ],
       "genres": [
         "norteño",
         "corridos"
@@ -864,6 +1177,9 @@
       "name": "Siempre Gruperos",
       "style": "Grupera • regional • sólo música",
       "group": "regional",
+      "categoryIds": [
+        "grupera"
+      ],
       "genres": [
         "grupera"
       ],
@@ -880,6 +1196,11 @@
       "name": "La Comadre Pa' Bailar",
       "style": "Banda • grupera • cumbia • sólo música",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera",
+        "cumbia"
+      ],
       "genres": [
         "banda",
         "grupera",
@@ -898,6 +1219,10 @@
       "name": "La Ke Buena 92.9 CDMX",
       "style": "Regional mexicana • banda • grupera",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -915,6 +1240,10 @@
       "name": "La Comadre 105.5 Puebla",
       "style": "Regional mexicana • banda • grupera",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -932,6 +1261,9 @@
       "name": "La Bestia Grupera 91.5 Cancún",
       "style": "Grupera • regional mexicana",
       "group": "regional",
+      "categoryIds": [
+        "grupera"
+      ],
       "genres": [
         "grupera"
       ],
@@ -948,6 +1280,10 @@
       "name": "Fiesta Mexicana 102.3 León",
       "style": "Banda • grupera • regional",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -965,6 +1301,10 @@
       "name": "Fiesta Mexicana 102.9 Celaya",
       "style": "Banda • grupera • regional",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -982,6 +1322,10 @@
       "name": "Fiesta Mexicana 105.5 Irapuato",
       "style": "Banda • grupera • regional",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -999,6 +1343,10 @@
       "name": "La Comadre 104.5 Pachuca",
       "style": "Regional mexicana • banda • grupera",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -1016,6 +1364,10 @@
       "name": "La Súper Buena 95.7 Ciudad Mante",
       "style": "Regional • norteño • ranchera",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "norteno"
+      ],
       "genres": [
         "ranchera",
         "norteño"
@@ -1033,6 +1385,11 @@
       "name": "La Cotorra 101.7 Ciudad Victoria",
       "style": "Grupera • norteño • ranchera",
       "group": "regional",
+      "categoryIds": [
+        "ranchera",
+        "norteno",
+        "grupera"
+      ],
       "genres": [
         "ranchera",
         "norteño",
@@ -1051,6 +1408,10 @@
       "name": "Estéreo Alegre 101.5",
       "style": "Banda • grupera • regional",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -1068,6 +1429,10 @@
       "name": "La Raza 97.9",
       "style": "Banda • grupera • regional",
       "group": "regional",
+      "categoryIds": [
+        "banda",
+        "grupera"
+      ],
       "genres": [
         "banda",
         "grupera"
@@ -1085,6 +1450,11 @@
       "name": "Tequila FM",
       "style": "Banda • corridos • norteño",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "banda",
+        "corridos"
+      ],
       "genres": [
         "norteño",
         "banda",
@@ -1103,6 +1473,12 @@
       "name": "Cumbias Inmortales",
       "style": "Cumbia grupera · tropical · norteña · recuerdo",
       "group": "regional",
+      "categoryIds": [
+        "norteno",
+        "grupera",
+        "cumbia",
+        "tropical"
+      ],
       "genres": [
         "norteño",
         "grupera",
@@ -1122,6 +1498,10 @@
       "name": "Mariachi Eterno",
       "style": "Mariachi tradicional • rancheras • boleros",
       "group": "mariachi",
+      "categoryIds": [
+        "mariachi",
+        "ranchera"
+      ],
       "genres": [
         "mariachi",
         "ranchera"
@@ -1139,6 +1519,10 @@
       "name": "Fara Fara Radio",
       "style": "Norteño clásico • corridos • música de antaño",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "corridos"
+      ],
       "genres": [
         "norteño",
         "corridos"
@@ -1156,6 +1540,10 @@
       "name": "Norteñas Inmortales Radio",
       "style": "Norteñas clásicas • corridos • recuerdo",
       "group": "norteno",
+      "categoryIds": [
+        "norteno",
+        "corridos"
+      ],
       "genres": [
         "norteño",
         "corridos"
@@ -1173,6 +1561,11 @@
       "name": "Radio La Sureña",
       "style": "Cumbia ranchera chilena • música campesina",
       "group": "campo",
+      "categoryIds": [
+        "campo",
+        "ranchera",
+        "cumbia"
+      ],
       "genres": [
         "campo",
         "ranchera",
@@ -1191,6 +1584,9 @@
       "name": "Rancho Grande FM",
       "style": "Rancheras mexicanas clásicas • música de antaño",
       "group": "ranchera",
+      "categoryIds": [
+        "ranchera"
+      ],
       "genres": [
         "ranchera"
       ],
