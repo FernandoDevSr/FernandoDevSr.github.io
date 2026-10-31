@@ -1,4 +1,9 @@
 {
+  "browseFilters": [
+    "ranchera",
+    "musica-mexicana",
+    "cumbia"
+  ],
   "categories": [
     {
       "id": "ranchera",
@@ -20,11 +25,12 @@
     },
     {
       "id": "musica-mexicana",
-      "name": "Música mexicana",
+      "name": "Mexicanas",
       "order": 20,
       "parent": "",
       "aliases": [
-        "musica mexicana"
+        "musica mexicana",
+        "música mexicana"
       ]
     },
     {
@@ -74,7 +80,7 @@
     },
     {
       "id": "cumbia",
-      "name": "Cumbia",
+      "name": "Cumbias",
       "order": 80,
       "parent": "",
       "aliases": [
@@ -128,11 +134,11 @@
     }
   ],
   "schemaVersion": 1,
-  "catalogVersion": 19,
+  "catalogVersion": 20,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 30,
-  "generatedAt": "2026-10-29T18:52:32Z",
-  "version": 19,
+  "generatedAt": "2026-10-31T03:52:40Z",
+  "version": 20,
   "stations": [
     {
       "id": "solo-rancheras",
