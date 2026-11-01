@@ -134,11 +134,11 @@
     }
   ],
   "schemaVersion": 1,
-  "catalogVersion": 20,
+  "catalogVersion": 21,
   "minAppVersionCode": 12,
   "refreshAfterMinutes": 30,
-  "generatedAt": "2026-10-31T03:52:40Z",
-  "version": 20,
+  "generatedAt": "2026-11-01T16:25:35Z",
+  "version": 21,
   "stations": [
     {
       "id": "solo-rancheras",
@@ -167,7 +167,8 @@
       "style": "Clásicos mexicanos",
       "group": "ranchera",
       "categoryIds": [
-        "ranchera"
+        "ranchera",
+        "musica-mexicana"
       ],
       "genres": [
         "ranchera"
@@ -288,7 +289,8 @@
       "style": "Ranchera • mexicana • Chile",
       "group": "ranchera",
       "categoryIds": [
-        "ranchera"
+        "ranchera",
+        "musica-mexicana"
       ],
       "genres": [
         "ranchera"
@@ -332,7 +334,8 @@
       "style": "Música mexicana • Chile",
       "group": "ranchera",
       "categoryIds": [
-        "ranchera"
+        "ranchera",
+        "musica-mexicana"
       ],
       "genres": [
         "ranchera"
@@ -673,7 +676,8 @@
       "style": "Tradicional mexicana",
       "group": "campo",
       "categoryIds": [
-        "campo"
+        "campo",
+        "musica-mexicana"
       ],
       "genres": [
         "campo"
@@ -938,7 +942,8 @@
       "style": "Regional mexicana • grupera",
       "group": "regional",
       "categoryIds": [
-        "grupera"
+        "grupera",
+        "musica-mexicana"
       ],
       "genres": [
         "grupera"
@@ -1062,7 +1067,8 @@
       "style": "Grupera • tradicional mexicana",
       "group": "regional",
       "categoryIds": [
-        "grupera"
+        "grupera",
+        "musica-mexicana"
       ],
       "genres": [
         "grupera"
@@ -1081,7 +1087,8 @@
       "style": "Grupera • tradicional mexicana",
       "group": "regional",
       "categoryIds": [
-        "grupera"
+        "grupera",
+        "musica-mexicana"
       ],
       "genres": [
         "grupera"
@@ -1143,7 +1150,8 @@
       "style": "Regional mexicana • grupera",
       "group": "regional",
       "categoryIds": [
-        "grupera"
+        "grupera",
+        "musica-mexicana"
       ],
       "genres": [
         "grupera"
@@ -1268,7 +1276,8 @@
       "style": "Grupera • regional mexicana",
       "group": "regional",
       "categoryIds": [
-        "grupera"
+        "grupera",
+        "musica-mexicana"
       ],
       "genres": [
         "grupera"
@@ -1591,7 +1600,8 @@
       "style": "Rancheras mexicanas clásicas • música de antaño",
       "group": "ranchera",
       "categoryIds": [
-        "ranchera"
+        "ranchera",
+        "musica-mexicana"
       ],
       "genres": [
         "ranchera"
